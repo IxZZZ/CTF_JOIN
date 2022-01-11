@@ -1,0 +1,1639 @@
+rdata:003FCBC6                 db 'SizeofResource',0
+.rdata:003FCBD5                 align 2
+.rdata:003FCBD6 word_3FCBD6     dw 21Ah                 ; DATA XREF: .rdata:003FCA84↑o
+.rdata:003FCBD8                 db 'GetCurrentProcess',0
+.rdata:003FCBEA word_3FCBEA     dw 616h                 ; DATA XREF: .rdata:003FCA80↑o
+.rdata:003FCBEC                 db 'WriteFile',0
+.rdata:003FCBF6 word_3FCBF6     dw 2F9h                 ; DATA XREF: .rdata:003FCA7C↑o
+.rdata:003FCBF8                 db 'GetTempPathW',0
+.rdata:003FCC05                 align 2
+.rdata:003FCC06 word_3FCC06     dw 0CEh                 ; DATA XREF: .rdata:003FCA78↑o
+.rdata:003FCC08                 db 'CreateFileW',0
+.rdata:003FCC14 word_3FCC14     dw 581h                 ; DATA XREF: .rdata:003FCA5C↑o
+.rdata:003FCC16                 db 'Sleep',0
+.rdata:003FCC1C word_3FCC1C     dw 264h                 ; DATA XREF: .rdata:off_3FCA44↑o
+.rdata:003FCC1E                 db 'GetLastError',0
+.rdata:003FCC2B                 align 4
+.rdata:003FCC2C word_3FCC2C     dw 3DFh                 ; DATA XREF: .rdata:003FCA48↑o
+.rdata:003FCC2E                 db 'LockResource',0
+.rdata:003FCC3B                 align 4
+.rdata:003FCC3C word_3FCC3C     dw 118h                 ; DATA XREF: .rdata:003FCA4C↑o
+.rdata:003FCC3E                 db 'DeleteFileW',0
+.rdata:003FCC4A word_3FCC4A     dw 89h                  ; DATA XREF: .rdata:003FCA50↑o
+.rdata:003FCC4C                 db 'CloseHandle',0
+.rdata:003FCC58 word_3FCC58     dw 3C8h                 ; DATA XREF: .rdata:003FCA54↑o
+.rdata:003FCC5A                 db 'LoadLibraryW',0
+.rdata:003FCC67                 align 4
+.rdata:003FCC68 word_3FCC68     dw 3CBh                 ; DATA XREF: .rdata:003FCA58↑o
+.rdata:003FCC6A                 db 'LoadResource',0
+.rdata:003FCC77                 align 4
+.rdata:003FCC78 word_3FCC78     dw 199h                 ; DATA XREF: .rdata:003FCA88↑o
+.rdata:003FCC7A                 db 'FindResourceW',0
+.rdata:003FCC88 word_3FCC88     dw 2B1h                 ; DATA XREF: .rdata:003FCA60↑o
+.rdata:003FCC8A                 db 'GetProcAddress',0
+.rdata:003FCC99                 align 2
+.rdata:003FCC9A word_3FCC9A     dw 27Bh                 ; DATA XREF: .rdata:003FCA64↑o
+.rdata:003FCC9C                 db 'GetModuleHandleW',0
+.rdata:003FCCAD                 align 2
+.rdata:003FCCAE word_3FCCAE     dw 1AEh                 ; DATA XREF: .rdata:003FCA68↑o
+.rdata:003FCCB0                 db 'FreeLibrary',0
+.rdata:003FCCBC aKernel32Dll    db 'KERNEL32.dll',0     ; DATA XREF: .rdata:003FC998↑o
+.rdata:003FCCC9                 align 2
+.rdata:003FCCCA word_3FCCCA     dw 3E2h                 ; DATA XREF: .rdata:off_3FCBAC↑o
+.rdata:003FCCCC                 db 'wsprintfW',0
+.rdata:003FCCD6 aUser32Dll      db 'USER32.dll',0       ; DATA XREF: .rdata:003FC9AC↑o
+.rdata:003FCCE1                 align 2
+.rdata:003FCCE2 word_3FCCE2     dw 170h                 ; DATA XREF: .rdata:003FCA38↑o
+.rdata:003FCCE4                 db 'GetTokenInformation',0
+.rdata:003FCCF8 word_3FCCF8     dw 299h                 ; DATA XREF: .rdata:003FCA34↑o
+.rdata:003FCCFA                 db 'RegQueryValueExW',0
+.rdata:003FCD0B                 align 4
+.rdata:003FCD0C word_3FCD0C     dw 28Ch                 ; DATA XREF: .rdata:003FCA30↑o
+.rdata:003FCD0E                 db 'RegOpenKeyExW',0
+.rdata:003FCD1C word_3FCD1C     dw 215h                 ; DATA XREF: .rdata:off_3FCA2C↑o
+.rdata:003FCD1E                 db 'OpenProcessToken',0
+.rdata:003FCD2F                 align 10h
+.rdata:003FCD30 word_3FCD30     dw 25Bh                 ; DATA XREF: .rdata:003FCA3C↑o
+.rdata:003FCD32                 db 'RegCloseKey',0
+.rdata:003FCD3E aAdvapi32Dll    db 'ADVAPI32.dll',0     ; DATA XREF: .rdata:003FC9C0↑o
+.rdata:003FCD4B                 align 4
+.rdata:003FCD4C word_3FCD4C     dw 1AEh                 ; DATA XREF: .rdata:off_3FCBA4↑o
+.rdata:003FCD4E                 db 'ShellExecuteW',0
+.rdata:003FCD5C aShell32Dll     db 'SHELL32.dll',0      ; DATA XREF: .rdata:003FC9D4↑o
+.rdata:003FCD68 word_3FCD68     dw 8Dh                  ; DATA XREF: .rdata:off_3FCBB4↑o
+.rdata:003FCD6A                 db 'CoUninitialize',0
+.rdata:003FCD79                 align 2
+.rdata:003FCD7A word_3FCD7A     dw 28h                  ; DATA XREF: .rdata:003FCBBC↑o
+.rdata:003FCD7C                 db 'CoCreateInstance',0
+.rdata:003FCD8D                 align 2
+.rdata:003FCD8E word_3FCD8E     dw 5Eh                  ; DATA XREF: .rdata:003FCBB8↑o
+.rdata:003FCD90                 db 'CoInitializeEx',0
+.rdata:003FCD9F                 align 10h
+.rdata:003FCDA0 aOle32Dll       db 'ole32.dll',0        ; DATA XREF: .rdata:003FC9E8↑o
+.rdata:003FCDAA word_3FCDAA     dw 0C9h                 ; DATA XREF: .rdata:003FCB8C↑o
+.rdata:003FCDAC                 db 'MFShutdown',0
+.rdata:003FCDB7                 align 4
+.rdata:003FCDB8 word_3FCDB8     dw 49h                  ; DATA XREF: .rdata:003FCB94↑o
+.rdata:003FCDBA                 db 'MFCreateMemoryBuffer',0
+.rdata:003FCDCF                 align 10h
+.rdata:003FCDD0 word_3FCDD0     dw 46h                  ; DATA XREF: .rdata:off_3FCB7C↑o
+.rdata:003FCDD2                 db 'MFCreateMediaType',0
+.rdata:003FCDE4 word_3FCDE4     dw 5Bh                  ; DATA XREF: .rdata:003FCB90↑o
+.rdata:003FCDE6                 db 'MFCreateSourceResolver',0
+.rdata:003FCDFD                 align 2
+.rdata:003FCDFE word_3FCDFE     dw 2Ah                  ; DATA XREF: .rdata:003FCB88↑o
+.rdata:003FCE00                 db 'MFCreateAttributes',0
+.rdata:003FCE13                 align 4
+.rdata:003FCE14 word_3FCE14     dw 56h                  ; DATA XREF: .rdata:003FCB84↑o
+.rdata:003FCE16                 db 'MFCreateSample',0
+.rdata:003FCE25                 align 2
+.rdata:003FCE26 word_3FCE26     dw 0CBh                 ; DATA XREF: .rdata:003FCB80↑o
+.rdata:003FCE28                 db 'MFStartup',0
+.rdata:003FCE32 aMfplatDll      db 'MFPlat.DLL',0       ; DATA XREF: .rdata:003FC9FC↑o
+.rdata:003FCE3D                 align 2
+.rdata:003FCE3E word_3FCE3E     dw 5                    ; DATA XREF: .rdata:off_3FCB9C↑o
+.rdata:003FCE40                 db 'MFCreateSourceReaderFromMediaSource',0
+.rdata:003FCE64 aMfreadwriteDll db 'MFReadWrite.dll',0  ; DATA XREF: .rdata:003FCA10↑o
+.rdata:003FCE74 word_3FCE74     dw 5B1h                 ; DATA XREF: .rdata:003FCAC8↑o
+.rdata:003FCE76                 db 'UnhandledExceptionFilter',0
+.rdata:003FCE8F                 align 10h
+.rdata:003FCE90 word_3FCE90     dw 571h                 ; DATA XREF: .rdata:003FCACC↑o
+.rdata:003FCE92                 db 'SetUnhandledExceptionFilter',0
+.rdata:003FCEAE word_3FCEAE     dw 590h                 ; DATA XREF: .rdata:003FCAD0↑o
+.rdata:003FCEB0                 db 'TerminateProcess',0
+.rdata:003FCEC1                 align 2
+.rdata:003FCEC2 word_3FCEC2     dw 389h                 ; DATA XREF: .rdata:003FCAD4↑o
+.rdata:003FCEC4                 db 'IsProcessorFeaturePresent',0
+.rdata:003FCEDE word_3FCEDE     dw 382h                 ; DATA XREF: .rdata:003FCAD8↑o
+.rdata:003FCEE0                 db 'IsDebuggerPresent',0
+.rdata:003FCEF2 word_3FCEF2     dw 2D3h                 ; DATA XREF: .rdata:003FCADC↑o
+.rdata:003FCEF4                 db 'GetStartupInfoW',0
+.rdata:003FCF04 word_3FCF04     dw 44Fh                 ; DATA XREF: .rdata:003FCAE0↑o
+.rdata:003FCF06                 db 'QueryPerformanceCounter',0
+.rdata:003FCF1E word_3FCF1E     dw 21Bh                 ; DATA XREF: .rdata:003FCAE4↑o
+.rdata:003FCF20                 db 'GetCurrentProcessId',0
+.rdata:003FCF34 word_3FCF34     dw 21Fh                 ; DATA XREF: .rdata:003FCAE8↑o
+.rdata:003FCF36                 db 'GetCurrentThreadId',0
+.rdata:003FCF49                 align 2
+.rdata:003FCF4A word_3FCF4A     dw 2ECh                 ; DATA XREF: .rdata:003FCAEC↑o
+.rdata:003FCF4C                 db 'GetSystemTimeAsFileTime',0
+.rdata:003FCF64 word_3FCF64     dw 366h                 ; DATA XREF: .rdata:003FCAF0↑o
+.rdata:003FCF66                 db 'InitializeSListHead',0
+.rdata:003FCF7A word_3FCF7A     dw 534h                 ; DATA XREF: .rdata:003FCAF4↑o
+.rdata:003FCF7C                 db 'SetLastError',0
+.rdata:003FCF89                 align 2
+.rdata:003FCF8A word_3FCF8A     dw 134h                 ; DATA XREF: .rdata:003FCAF8↑o
+.rdata:003FCF8C                 db 'EnterCriticalSection',0
+.rdata:003FCFA1                 align 2
+.rdata:003FCFA2 word_3FCFA2     dw 3C1h                 ; DATA XREF: .rdata:003FCAFC↑o
+.rdata:003FCFA4                 db 'LeaveCriticalSection',0
+.rdata:003FCFB9                 align 2
+.rdata:003FCFBA word_3FCFBA     dw 113h                 ; DATA XREF: .rdata:003FCB00↑o
+.rdata:003FCFBC                 db 'DeleteCriticalSection',0
+.rdata:003FCFD2 word_3FCFD2     dw 4D5h                 ; DATA XREF: .rdata:003FCB04↑o
+.rdata:003FCFD4                 db 'RtlUnwind',0
+.rdata:003FCFDE word_3FCFDE     dw 362h                 ; DATA XREF: .rdata:003FCB08↑o
+.rdata:003FCFE0                 db 'InitializeCriticalSectionAndSpinCount',0
+.rdata:003FD006 word_3FD006     dw 5A2h                 ; DATA XREF: .rdata:003FCB0C↑o
+.rdata:003FD008                 db 'TlsAlloc',0
+.rdata:003FD011                 align 2
+.rdata:003FD012 word_3FD012     dw 5A4h                 ; DATA XREF: .rdata:003FCB10↑o
+.rdata:003FD014                 db 'TlsGetValue',0
+.rdata:003FD020 word_3FD020     dw 5A5h                 ; DATA XREF: .rdata:003FCB14↑o
+.rdata:003FD022                 db 'TlsSetValue',0
+.rdata:003FD02E word_3FD02E     dw 5A3h                 ; DATA XREF: .rdata:003FCB18↑o
+.rdata:003FD030                 db 'TlsFree',0
+.rdata:003FD038 word_3FD038     dw 3C7h                 ; DATA XREF: .rdata:003FCB1C↑o
+.rdata:003FD03A                 db 'LoadLibraryExW',0
+.rdata:003FD049                 align 2
+.rdata:003FD04A word_3FD04A     dw 464h                 ; DATA XREF: .rdata:003FCB20↑o
+.rdata:003FD04C                 db 'RaiseException',0
+.rdata:003FD05B                 align 4
+.rdata:003FD05C word_3FD05C     dw 161h                 ; DATA XREF: .rdata:003FCB24↑o
+.rdata:003FD05E                 db 'ExitProcess',0
+.rdata:003FD06A word_3FD06A     dw 27Ah                 ; DATA XREF: .rdata:003FCB28↑o
+.rdata:003FD06C                 db 'GetModuleHandleExW',0
+.rdata:003FD07F                 align 10h
+.rdata:003FD080 word_3FD080     dw 277h                 ; DATA XREF: .rdata:003FCB2C↑o
+.rdata:003FD082                 db 'GetModuleFileNameW',0
+.rdata:003FD095                 align 2
+.rdata:003FD096 word_3FD096     dw 2D5h                 ; DATA XREF: .rdata:003FCB30↑o
+.rdata:003FD098                 db 'GetStdHandle',0
+.rdata:003FD0A5                 align 2
+.rdata:003FD0A6 word_3FD0A6     dw 1D9h                 ; DATA XREF: .rdata:003FCB34↑o
+.rdata:003FD0A8                 db 'GetCommandLineA',0
+.rdata:003FD0B8 word_3FD0B8     dw 1DAh                 ; DATA XREF: .rdata:003FCB38↑o
+.rdata:003FD0BA                 db 'GetCommandLineW',0
+.rdata:003FD0CA word_3FD0CA     dw 348h                 ; DATA XREF: .rdata:003FCB3C↑o
+.rdata:003FD0CC                 db 'HeapAlloc',0
+.rdata:003FD0D6 word_3FD0D6     dw 34Ch                 ; DATA XREF: .rdata:003FCB40↑o
+.rdata:003FD0D8                 db 'HeapFree',0
+.rdata:003FD0E1                 align 2
+.rdata:003FD0E2 word_3FD0E2     dw 9Eh                  ; DATA XREF: .rdata:003FCB44↑o
+.rdata:003FD0E4                 db 'CompareStringW',0
+.rdata:003FD0F3                 align 4
+.rdata:003FD0F4 word_3FD0F4     dw 3B5h                 ; DATA XREF: .rdata:003FCB48↑o
+.rdata:003FD0F6                 db 'LCMapStringW',0
+.rdata:003FD103                 align 4
+.rdata:003FD104 word_3FD104     dw 251h                 ; DATA XREF: .rdata:003FCB4C↑o
+.rdata:003FD106                 db 'GetFileType',0
+.rdata:003FD112 word_3FD112     dw 203h                 ; DATA XREF: .rdata:003FCB50↑o
+.rdata:003FD114                 db 'GetConsoleOutputCP',0
+.rdata:003FD127                 align 4
+.rdata:003FD128 word_3FD128     dw 1FFh                 ; DATA XREF: .rdata:003FCB54↑o
+.rdata:003FD12A                 db 'GetConsoleMode',0
+.rdata:003FD139                 align 2
+.rdata:003FD13A word_3FD13A     dw 24Fh                 ; DATA XREF: .rdata:003FCB58↑o
+.rdata:003FD13C                 db 'GetFileSizeEx',0
+.rdata:003FD14A word_3FD14A     dw 525h                 ; DATA XREF: .rdata:003FCB5C↑o
+.rdata:003FD14C                 db 'SetFilePointerEx',0
+.rdata:003FD15D                 align 2
+.rdata:003FD15E word_3FD15E     dw 178h                 ; DATA XREF: .rdata:003FCB60↑o
+.rdata:003FD160                 db 'FindClose',0
+.rdata:003FD16A word_3FD16A     dw 17Eh                 ; DATA XREF: .rdata:003FCB64↑o
+.rdata:003FD16C                 db 'FindFirstFileExW',0
+.rdata:003FD17D                 align 2
+.rdata:003FD17E word_3FD17E     dw 18Fh                 ; DATA XREF: .rdata:003FCB68↑o
+.rdata:003FD180                 db 'FindNextFileW',0
+.rdata:003FD18E word_3FD18E     dw 38Fh                 ; DATA XREF: .rdata:003FCB6C↑o
+.rdata:003FD190                 db 'IsValidCodePage',0
+.rdata:003FD1A0 word_3FD1A0     dw 1B5h                 ; DATA XREF: .rdata:003FCB70↑o
+.rdata:003FD1A2                 db 'GetACP',0
+.rdata:003FD1A9                 align 2
+.rdata:003FD1AA word_3FD1AA     dw 29Ah                 ; DATA XREF: .rdata:003FCAC4↑o
+.rdata:003FD1AC                 db 'GetOEMCP',0
+.rdata:003FD1B5                 align 2
+.rdata:003FD1B6 word_3FD1B6     dw 1C4h                 ; DATA XREF: .rdata:003FCAC0↑o
+.rdata:003FD1B8                 db 'GetCPInfo',0
+.rdata:003FD1C2 word_3FD1C2     dw 3F3h                 ; DATA XREF: .rdata:003FCABC↑o
+.rdata:003FD1C4                 db 'MultiByteToWideChar',0
+.rdata:003FD1D8 word_3FD1D8     dw 602h                 ; DATA XREF: .rdata:003FCAB8↑o
+.rdata:003FD1DA                 db 'WideCharToMultiByte',0
+.rdata:003FD1EE word_3FD1EE     dw 23Ah                 ; DATA XREF: .rdata:003FCAB4↑o
+.rdata:003FD1F0                 db 'GetEnvironmentStringsW',0
+.rdata:003FD207                 align 4
+.rdata:003FD208 word_3FD208     dw 1ADh                 ; DATA XREF: .rdata:003FCAB0↑o
+.rdata:003FD20A                 db 'FreeEnvironmentStringsW',0
+.rdata:003FD222 word_3FD222     dw 516h                 ; DATA XREF: .rdata:003FCAAC↑o
+.rdata:003FD224                 db 'SetEnvironmentVariableW',0
+.rdata:003FD23C word_3FD23C     dw 2B7h                 ; DATA XREF: .rdata:003FCAA8↑o
+.rdata:003FD23E                 db 'GetProcessHeap',0
+.rdata:003FD24D                 align 2
+.rdata:003FD24E word_3FD24E     dw 54Eh                 ; DATA XREF: .rdata:003FCAA4↑o
+.rdata:003FD250                 db 'SetStdHandle',0
+.rdata:003FD25D                 align 2
+.rdata:003FD25E word_3FD25E     dw 2DAh                 ; DATA XREF: .rdata:003FCAA0↑o
+.rdata:003FD260                 db 'GetStringTypeW',0
+.rdata:003FD26F                 align 10h
+.rdata:003FD270 word_3FD270     dw 1A2h                 ; DATA XREF: .rdata:003FCA9C↑o
+.rdata:003FD272                 db 'FlushFileBuffers',0
+.rdata:003FD283                 align 4
+.rdata:003FD284 word_3FD284     dw 475h                 ; DATA XREF: .rdata:003FCA98↑o
+.rdata:003FD286                 db 'ReadFile',0
+.rdata:003FD28F                 align 10h
+.rdata:003FD290 word_3FD290     dw 472h                 ; DATA XREF: .rdata:003FCA94↑o
+.rdata:003FD292                 db 'ReadConsoleW',0
+.rdata:003FD29F                 align 10h
+.rdata:003FD2A0 word_3FD2A0     dw 351h                 ; DATA XREF: .rdata:003FCA90↑o
+.rdata:003FD2A2                 db 'HeapSize',0
+.rdata:003FD2AB                 align 4
+.rdata:003FD2AC word_3FD2AC     dw 34Fh                 ; DATA XREF: .rdata:003FCA74↑o
+.rdata:003FD2AE                 db 'HeapReAlloc',0
+.rdata:003FD2BA word_3FD2BA     dw 512h                 ; DATA XREF: .rdata:003FCA70↑o
+.rdata:003FD2BC                 db 'SetEndOfFile',0
+.rdata:003FD2C9                 align 2
+.rdata:003FD2CA word_3FD2CA     dw 615h                 ; DATA XREF: .rdata:003FCA6C↑o
+.rdata:003FD2CC                 db 'WriteConsoleW',0
+.rdata:003FD2DA word_3FD2DA     dw 10Ch                 ; DATA XREF: .rdata:003FCB74↑o
+.rdata:003FD2DC                 db 'DecodePointer',0
+.rdata:003FD2EA                 align 1000h
+.rdata:003FD2EA _rdata          ends
+.rdata:003FD2EA
+.data:003FE000 ; Section 3. (virtual address 0001E000)
+.data:003FE000 ; Virtual size                  : 000013F4 (   5108.)
+.data:003FE000 ; Section size in file          : 00000A00 (   2560.)
+.data:003FE000 ; Offset to raw data for section: 0001C000
+.data:003FE000 ; Flags C0000040: Data Readable Writable
+.data:003FE000 ; Alignment     : default
+.data:003FE000 ; ===========================================================================
+.data:003FE000
+.data:003FE000 ; Segment type: Pure data
+.data:003FE000 ; Segment permissions: Read/Write
+.data:003FE000 _data           segment para public 'DATA' use32
+.data:003FE000                 assume cs:_data
+.data:003FE000                 ;org 3FE000h
+.data:003FE000                 db 0FFh ; ÿ
+.data:003FE001                 db 0FFh ; ÿ
+.data:003FE002                 db 0FFh ; ÿ
+.data:003FE003                 db 0FFh ; ÿ
+.data:003FE004 dword_3FE004    dd 44BF19B1h            ; DATA XREF: sub_3E2403+E4↑r
+.data:003FE004                                         ; ___security_init_cookie+43↑w
+.data:003FE008 ; uintptr_t __security_cookie
+.data:003FE008 ___security_cookie dd 0BB40E64Eh        ; DATA XREF: sub_3E10A0+9↑r
+.data:003FE008                                         ; sub_3E1190+9↑r ...
+.data:003FE00C dword_3FE00C    dd 1                    ; DATA XREF: sub_3E24FD+D↑w
+.data:003FE00C                                         ; sub_3E24FD:loc_3E2611↑r ...
+.data:003FE010 dword_3FE010    dd 1                    ; DATA XREF: sub_3E29E9+2↑r
+.data:003FE014                 align 10h
+.data:003FE020 ; DWORD dwTlsIndex
+.data:003FE020 dwTlsIndex      dd 0FFFFFFFFh           ; DATA XREF: ___vcrt_getptd_noexit↑r
+.data:003FE020                                         ; ___vcrt_getptd_noexit+14↑r ...
+.data:003FE024                 align 10h
+.data:003FE030 unk_3FE030      db  20h                 ; DATA XREF: sub_3E33D0+2↑o
+.data:003FE031                 db    5
+.data:003FE032                 db  93h ; “
+.data:003FE033                 db  19h
+.data:003FE034                 db    0
+.data:003FE035                 db    0
+.data:003FE036                 db    0
+.data:003FE037                 db    0
+.data:003FE038                 db    0
+.data:003FE039                 db    0
+.data:003FE03A                 db    0
+.data:003FE03B                 db    0
+.data:003FE03C                 db    0
+.data:003FE03D                 db    0
+.data:003FE03E                 db    0
+.data:003FE03F                 db    0
+.data:003FE040 unk_3FE040      db    0                 ; DATA XREF: ___acrt_initialize_stdio+6D↑o
+.data:003FE040                                         ; ___acrt_iob_func+9↑o
+.data:003FE041                 db    0
+.data:003FE042                 db    0
+.data:003FE043                 db    0
+.data:003FE044                 db    0
+.data:003FE045                 db    0
+.data:003FE046                 db    0
+.data:003FE047                 db    0
+.data:003FE048                 db    0
+.data:003FE049                 db    0
+.data:003FE04A                 db    0
+.data:003FE04B                 db    0
+.data:003FE04C                 db    1
+.data:003FE04D                 db  20h
+.data:003FE04E                 db    0
+.data:003FE04F                 db    0
+.data:003FE050                 db    0
+.data:003FE051                 db    0
+.data:003FE052                 db    0
+.data:003FE053                 db    0
+.data:003FE054                 db    0
+.data:003FE055                 db    0
+.data:003FE056                 db    0
+.data:003FE057                 db    0
+.data:003FE058                 db    0
+.data:003FE059                 db    0
+.data:003FE05A                 db    0
+.data:003FE05B                 db    0
+.data:003FE05C                 db    0
+.data:003FE05D                 db    0
+.data:003FE05E                 db    0
+.data:003FE05F                 db    0
+.data:003FE060                 db    0
+.data:003FE061                 db    0
+.data:003FE062                 db    0
+.data:003FE063                 db    0
+.data:003FE064                 db    0
+.data:003FE065                 db    0
+.data:003FE066                 db    0
+.data:003FE067                 db    0
+.data:003FE068                 db    0
+.data:003FE069                 db    0
+.data:003FE06A                 db    0
+.data:003FE06B                 db    0
+.data:003FE06C                 db    0
+.data:003FE06D                 db    0
+.data:003FE06E                 db    0
+.data:003FE06F                 db    0
+.data:003FE070                 db    0
+.data:003FE071                 db    0
+.data:003FE072                 db    0
+.data:003FE073                 db    0
+.data:003FE074                 db    0
+.data:003FE075                 db    0
+.data:003FE076                 db    0
+.data:003FE077                 db    0
+.data:003FE078                 db    0
+.data:003FE079                 db    0
+.data:003FE07A                 db    0
+.data:003FE07B                 db    0
+.data:003FE07C                 db    0
+.data:003FE07D                 db    0
+.data:003FE07E                 db    0
+.data:003FE07F                 db    0
+.data:003FE080                 db    0
+.data:003FE081                 db    0
+.data:003FE082                 db    0
+.data:003FE083                 db    0
+.data:003FE084                 db    2
+.data:003FE085                 db  20h
+.data:003FE086                 db    0
+.data:003FE087                 db    0
+.data:003FE088                 db    1
+.data:003FE089                 db    0
+.data:003FE08A                 db    0
+.data:003FE08B                 db    0
+.data:003FE08C                 db    0
+.data:003FE08D                 db    0
+.data:003FE08E                 db    0
+.data:003FE08F                 db    0
+.data:003FE090                 db    0
+.data:003FE091                 db    0
+.data:003FE092                 db    0
+.data:003FE093                 db    0
+.data:003FE094                 db    0
+.data:003FE095                 db    0
+.data:003FE096                 db    0
+.data:003FE097                 db    0
+.data:003FE098                 db    0
+.data:003FE099                 db    0
+.data:003FE09A                 db    0
+.data:003FE09B                 db    0
+.data:003FE09C                 db    0
+.data:003FE09D                 db    0
+.data:003FE09E                 db    0
+.data:003FE09F                 db    0
+.data:003FE0A0                 db    0
+.data:003FE0A1                 db    0
+.data:003FE0A2                 db    0
+.data:003FE0A3                 db    0
+.data:003FE0A4                 db    0
+.data:003FE0A5                 db    0
+.data:003FE0A6                 db    0
+.data:003FE0A7                 db    0
+.data:003FE0A8                 db    0
+.data:003FE0A9                 db    0
+.data:003FE0AA                 db    0
+.data:003FE0AB                 db    0
+.data:003FE0AC                 db    0
+.data:003FE0AD                 db    0
+.data:003FE0AE                 db    0
+.data:003FE0AF                 db    0
+.data:003FE0B0                 db    0
+.data:003FE0B1                 db    0
+.data:003FE0B2                 db    0
+.data:003FE0B3                 db    0
+.data:003FE0B4                 db    0
+.data:003FE0B5                 db    0
+.data:003FE0B6                 db    0
+.data:003FE0B7                 db    0
+.data:003FE0B8                 db    0
+.data:003FE0B9                 db    0
+.data:003FE0BA                 db    0
+.data:003FE0BB                 db    0
+.data:003FE0BC                 db    2
+.data:003FE0BD                 db  20h
+.data:003FE0BE                 db    0
+.data:003FE0BF                 db    0
+.data:003FE0C0                 db    2
+.data:003FE0C1                 db    0
+.data:003FE0C2                 db    0
+.data:003FE0C3                 db    0
+.data:003FE0C4                 db    0
+.data:003FE0C5                 db    0
+.data:003FE0C6                 db    0
+.data:003FE0C7                 db    0
+.data:003FE0C8                 db    0
+.data:003FE0C9                 db    0
+.data:003FE0CA                 db    0
+.data:003FE0CB                 db    0
+.data:003FE0CC                 db    0
+.data:003FE0CD                 db    0
+.data:003FE0CE                 db    0
+.data:003FE0CF                 db    0
+.data:003FE0D0                 db    0
+.data:003FE0D1                 db    0
+.data:003FE0D2                 db    0
+.data:003FE0D3                 db    0
+.data:003FE0D4                 db    0
+.data:003FE0D5                 db    0
+.data:003FE0D6                 db    0
+.data:003FE0D7                 db    0
+.data:003FE0D8                 db    0
+.data:003FE0D9                 db    0
+.data:003FE0DA                 db    0
+.data:003FE0DB                 db    0
+.data:003FE0DC                 db    0
+.data:003FE0DD                 db    0
+.data:003FE0DE                 db    0
+.data:003FE0DF                 db    0
+.data:003FE0E0                 db    0
+.data:003FE0E1                 db    0
+.data:003FE0E2                 db    0
+.data:003FE0E3                 db    0
+.data:003FE0E4                 db    0
+.data:003FE0E5                 db    0
+.data:003FE0E6                 db    0
+.data:003FE0E7                 db    0
+.data:003FE0E8 byte_3FE0E8     db 2                    ; DATA XREF: ___acrt_initialize_stdio+BB↑o
+.data:003FE0E8                                         ; _abort:loc_3E8086↑r
+.data:003FE0E9                 align 10h
+.data:003FE0F0 unk_3FE0F0      db  0Ch                 ; DATA XREF: __errno+9↑o
+.data:003FE0F1                 db    0
+.data:003FE0F2                 db    0
+.data:003FE0F3                 db    0
+.data:003FE0F4 unk_3FE0F4      db    8                 ; DATA XREF: ___doserrno+9↑o
+.data:003FE0F5                 db    0
+.data:003FE0F6                 db    0
+.data:003FE0F7                 db    0
+.data:003FE0F8 unk_3FE0F8      db    0                 ; DATA XREF: sub_3E6905+1C↑o
+.data:003FE0F8                                         ; sub_3EAFE3+39↑o ...
+.data:003FE0F9                 db    0
+.data:003FE0FA                 db    0
+.data:003FE0FB                 db    0
+.data:003FE0FC                 db    0
+.data:003FE0FD                 db    0
+.data:003FE0FE                 db    0
+.data:003FE0FF                 db    0
+.data:003FE100                 db    0
+.data:003FE101                 db    0
+.data:003FE102                 db    0
+.data:003FE103                 db    0
+.data:003FE104                 db    0
+.data:003FE105                 db    0
+.data:003FE106                 db    0
+.data:003FE107                 db    0
+.data:003FE108                 db    0
+.data:003FE109                 db    0
+.data:003FE10A                 db    0
+.data:003FE10B                 db    0
+.data:003FE10C                 db    0
+.data:003FE10D                 db    0
+.data:003FE10E                 db    0
+.data:003FE10F                 db    0
+.data:003FE110                 db 0FFh ; ÿ
+.data:003FE111                 db 0FFh ; ÿ
+.data:003FE112                 db 0FFh ; ÿ
+.data:003FE113                 db 0FFh ; ÿ
+.data:003FE114                 db    0
+.data:003FE115                 db    0
+.data:003FE116                 db    0
+.data:003FE117                 db    0
+.data:003FE118                 db    0
+.data:003FE119                 db    0
+.data:003FE11A                 db    0
+.data:003FE11B                 db    0
+.data:003FE11C                 db    0
+.data:003FE11D                 db    0
+.data:003FE11E                 db    0
+.data:003FE11F                 db    0
+.data:003FE120                 db  80h ; €
+.data:003FE121                 db    0
+.data:003FE122                 db  0Ah
+.data:003FE123                 db  0Ah
+.data:003FE124                 db  0Ah
+.data:003FE125                 db    0
+.data:003FE126                 db    0
+.data:003FE127                 db    0
+.data:003FE128                 db    0
+.data:003FE129                 db    0
+.data:003FE12A                 db    0
+.data:003FE12B                 db    0
+.data:003FE12C                 db    0
+.data:003FE12D                 db    0
+.data:003FE12E                 db    0
+.data:003FE12F                 db    0
+.data:003FE130 off_3FE130      dd offset unk_3F7F42    ; DATA XREF: sub_3E9723+2A↑r
+.data:003FE134 dword_3FE134    dd 0FFFFFFFFh           ; DATA XREF: sub_3E9B95+D↑r
+.data:003FE134                                         ; sub_3E9B95:loc_3E9BC3↑r ...
+.data:003FE138 off_3FE138      dd offset asc_3F7A40    ; DATA XREF: sub_3E7B0B↑o
+.data:003FE138                                         ; __crt_seh_guarded_call<void>::operator()<_lambda_e5124f882df8998aaf41531e079ba474_,_lambda_3e16ef9562a7dcce91392c22ab16ea36_ &,_lambda_e25ca0880e6ef98be67edffd8c599615_>(_lambda_e5124f882df8998aaf41531e079ba474_ &&,_lambda_3e16ef9562a7dcce91392c22ab16ea36_ &,_lambda_e25ca0880e6ef98be67edffd8c599615_ &&)+20↑o ...
+.data:003FE138                                         ; "         (((((                  H"
+.data:003FE13C                 db    1
+.data:003FE13D                 db    0
+.data:003FE13E                 db    0
+.data:003FE13F                 db    0
+.data:003FE140                 db    0
+.data:003FE141                 db    0
+.data:003FE142                 db    0
+.data:003FE143                 db    0
+.data:003FE144                 db    1
+.data:003FE145                 db    0
+.data:003FE146                 db    0
+.data:003FE147                 db    0
+.data:003FE148                 db    0
+.data:003FE149                 db    0
+.data:003FE14A                 db    0
+.data:003FE14B                 db    0
+.data:003FE14C                 db    0
+.data:003FE14D                 db    0
+.data:003FE14E                 db    0
+.data:003FE14F                 db    0
+.data:003FE150                 db    1
+.data:003FE151                 db    0
+.data:003FE152                 db    0
+.data:003FE153                 db    0
+.data:003FE154                 db    0
+.data:003FE155                 db    0
+.data:003FE156                 db    0
+.data:003FE157                 db    0
+.data:003FE158                 db    0
+.data:003FE159                 db    0
+.data:003FE15A                 db    0
+.data:003FE15B                 db    0
+.data:003FE15C                 db    0
+.data:003FE15D                 db    0
+.data:003FE15E                 db    0
+.data:003FE15F                 db    0
+.data:003FE160                 db    0
+.data:003FE161                 db    0
+.data:003FE162                 db    0
+.data:003FE163                 db    0
+.data:003FE164                 db    0
+.data:003FE165                 db    0
+.data:003FE166                 db    0
+.data:003FE167                 db    0
+.data:003FE168                 dd offset unk_3FE1F8
+.data:003FE16C                 db    0
+.data:003FE16D                 db    0
+.data:003FE16E                 db    0
+.data:003FE16F                 db    0
+.data:003FE170                 db    0
+.data:003FE171                 db    0
+.data:003FE172                 db    0
+.data:003FE173                 db    0
+.data:003FE174                 db    0
+.data:003FE175                 db    0
+.data:003FE176                 db    0
+.data:003FE177                 db    0
+.data:003FE178                 dd offset unk_3FE1F8
+.data:003FE17C                 db    0
+.data:003FE17D                 db    0
+.data:003FE17E                 db    0
+.data:003FE17F                 db    0
+.data:003FE180                 db    0
+.data:003FE181                 db    0
+.data:003FE182                 db    0
+.data:003FE183                 db    0
+.data:003FE184                 db    0
+.data:003FE185                 db    0
+.data:003FE186                 db    0
+.data:003FE187                 db    0
+.data:003FE188                 dd offset unk_3FE1F8
+.data:003FE18C                 db    0
+.data:003FE18D                 db    0
+.data:003FE18E                 db    0
+.data:003FE18F                 db    0
+.data:003FE190                 db    0
+.data:003FE191                 db    0
+.data:003FE192                 db    0
+.data:003FE193                 db    0
+.data:003FE194                 db    0
+.data:003FE195                 db    0
+.data:003FE196                 db    0
+.data:003FE197                 db    0
+.data:003FE198                 dd offset unk_3FE1F8
+.data:003FE19C                 db    0
+.data:003FE19D                 db    0
+.data:003FE19E                 db    0
+.data:003FE19F                 db    0
+.data:003FE1A0                 db    0
+.data:003FE1A1                 db    0
+.data:003FE1A2                 db    0
+.data:003FE1A3                 db    0
+.data:003FE1A4                 db    0
+.data:003FE1A5                 db    0
+.data:003FE1A6                 db    0
+.data:003FE1A7                 db    0
+.data:003FE1A8                 dd offset unk_3FE1F8
+.data:003FE1AC                 align 20h
+.data:003FE1C0                 dd offset off_3FE720
+.data:003FE1C4                 db    0
+.data:003FE1C5                 db    0
+.data:003FE1C6                 db    0
+.data:003FE1C7                 db    0
+.data:003FE1C8                 db    0
+.data:003FE1C9                 db    0
+.data:003FE1CA                 db    0
+.data:003FE1CB                 db    0
+.data:003FE1CC                 dd offset unk_3F7CC0
+.data:003FE1D0                 dd offset unk_3F7E40
+.data:003FE1D4                 dd offset off_3F8148
+.data:003FE1D8                 db    0
+.data:003FE1D9                 db    0
+.data:003FE1DA                 db    0
+.data:003FE1DB                 db    0
+.data:003FE1DC                 db    0
+.data:003FE1DD                 db    0
+.data:003FE1DE                 db    0
+.data:003FE1DF                 db    0
+.data:003FE1E0                 db    0
+.data:003FE1E1                 db    0
+.data:003FE1E2                 db    0
+.data:003FE1E3                 db    0
+.data:003FE1E4                 db    0
+.data:003FE1E5                 db    0
+.data:003FE1E6                 db    0
+.data:003FE1E7                 db    0
+.data:003FE1E8                 db    0
+.data:003FE1E9                 db    0
+.data:003FE1EA                 db    0
+.data:003FE1EB                 db    0
+.data:003FE1EC                 db    0
+.data:003FE1ED                 db    0
+.data:003FE1EE                 db    0
+.data:003FE1EF                 db    0
+.data:003FE1F0 off_3FE1F0      dd offset off_3FE138    ; DATA XREF: _LocaleUpdate::_LocaleUpdate(__crt_locale_pointers * const)+29↑r
+.data:003FE1F0                                         ; "         (((((                  H"
+.data:003FE1F4 off_3FE1F4      dd offset unk_3FE200    ; DATA XREF: _LocaleUpdate::_LocaleUpdate(__crt_locale_pointers * const)+30↑r
+.data:003FE1F4                                         ; sub_3ECAD1+10A↑w
+.data:003FE1F8 unk_3FE1F8      db  43h ; C             ; DATA XREF: ___acrt_add_locale_ref:loc_3EE317↑o
+.data:003FE1F8                                         ; ___acrt_free_locale:loc_3EE43C↑o ...
+.data:003FE1F9                 db    0
+.data:003FE1FA                 db    0
+.data:003FE1FB                 db    0
+.data:003FE1FC                 db    0
+.data:003FE1FD                 db    0
+.data:003FE1FE                 db    0
+.data:003FE1FF                 db    0
+.data:003FE200 unk_3FE200      db    0                 ; DATA XREF: _lambda_30a498feb8538b5c3153c22026e33470_::operator()(__crt_multibyte_data * &)+15↑o
+.data:003FE200                                         ; __crt_seh_guarded_call<void>::operator()<_lambda_51b6e8b1eb166f2a3faf91f424b38130_,_lambda_6250bd4b2a391816dd638c3bf72b0bcb_ &,_lambda_0b5a4a3e68152e1d9b943535f5f47bed_>(_lambda_51b6e8b1eb166f2a3faf91f424b38130_ &&,_lambda_6250bd4b2a391816dd638c3bf72b0bcb_ &,_lambda_0b5a4a3e68152e1d9b943535f5f47bed_ &&)+32↑o ...
+.data:003FE201                 db    0
+.data:003FE202                 db    0
+.data:003FE203                 db    0
+.data:003FE204                 db    0
+.data:003FE205                 db    0
+.data:003FE206                 db    0
+.data:003FE207                 db    0
+.data:003FE208                 db    0
+.data:003FE209                 db    0
+.data:003FE20A                 db    0
+.data:003FE20B                 db    0
+.data:003FE20C                 db    0
+.data:003FE20D                 db    0
+.data:003FE20E                 db    0
+.data:003FE20F                 db    0
+.data:003FE210                 db    0
+.data:003FE211                 db    0
+.data:003FE212                 db    0
+.data:003FE213                 db    0
+.data:003FE214                 db    0
+.data:003FE215                 db    0
+.data:003FE216                 db    0
+.data:003FE217                 db    0
+.data:003FE218                 db    0
+.data:003FE219                 db    0
+.data:003FE21A                 db    0
+.data:003FE21B                 db    0
+.data:003FE21C                 db    0
+.data:003FE21D                 db    0
+.data:003FE21E                 db    0
+.data:003FE21F                 db    0
+.data:003FE220                 db    0
+.data:003FE221                 db    0
+.data:003FE222                 db    0
+.data:003FE223                 db    0
+.data:003FE224                 db    0
+.data:003FE225                 db    0
+.data:003FE226                 db    0
+.data:003FE227                 db    0
+.data:003FE228                 db    0
+.data:003FE229                 db    0
+.data:003FE22A                 db    0
+.data:003FE22B                 db    0
+.data:003FE22C                 db    0
+.data:003FE22D                 db    0
+.data:003FE22E                 db    0
+.data:003FE22F                 db    0
+.data:003FE230                 db    0
+.data:003FE231                 db    0
+.data:003FE232                 db    0
+.data:003FE233                 db    0
+.data:003FE234                 db    0
+.data:003FE235                 db    0
+.data:003FE236                 db    0
+.data:003FE237                 db    0
+.data:003FE238                 db    0
+.data:003FE239                 db    0
+.data:003FE23A                 db    0
+.data:003FE23B                 db    0
+.data:003FE23C                 db    0
+.data:003FE23D                 db    0
+.data:003FE23E                 db    0
+.data:003FE23F                 db    0
+.data:003FE240                 db    0
+.data:003FE241                 db    0
+.data:003FE242                 db    0
+.data:003FE243                 db    0
+.data:003FE244                 db    0
+.data:003FE245                 db    0
+.data:003FE246                 db    0
+.data:003FE247                 db    0
+.data:003FE248                 db    0
+.data:003FE249                 db    0
+.data:003FE24A                 db    0
+.data:003FE24B                 db    0
+.data:003FE24C                 db    0
+.data:003FE24D                 db    0
+.data:003FE24E                 db    0
+.data:003FE24F                 db    0
+.data:003FE250                 db    0
+.data:003FE251                 db    0
+.data:003FE252                 db    0
+.data:003FE253                 db    0
+.data:003FE254                 db    0
+.data:003FE255                 db    0
+.data:003FE256                 db    0
+.data:003FE257                 db    0
+.data:003FE258                 db    0
+.data:003FE259                 db    0
+.data:003FE25A                 db  10h
+.data:003FE25B                 db  10h
+.data:003FE25C                 db  10h
+.data:003FE25D                 db  10h
+.data:003FE25E                 db  10h
+.data:003FE25F                 db  10h
+.data:003FE260                 db  10h
+.data:003FE261                 db  10h
+.data:003FE262                 db  10h
+.data:003FE263                 db  10h
+.data:003FE264                 db  10h
+.data:003FE265                 db  10h
+.data:003FE266                 db  10h
+.data:003FE267                 db  10h
+.data:003FE268                 db  10h
+.data:003FE269                 db  10h
+.data:003FE26A                 db  10h
+.data:003FE26B                 db  10h
+.data:003FE26C                 db  10h
+.data:003FE26D                 db  10h
+.data:003FE26E                 db  10h
+.data:003FE26F                 db  10h
+.data:003FE270                 db  10h
+.data:003FE271                 db  10h
+.data:003FE272                 db  10h
+.data:003FE273                 db  10h
+.data:003FE274                 db    0
+.data:003FE275                 db    0
+.data:003FE276                 db    0
+.data:003FE277                 db    0
+.data:003FE278                 db    0
+.data:003FE279                 db    0
+.data:003FE27A                 db  20h
+.data:003FE27B                 db  20h
+.data:003FE27C                 db  20h
+.data:003FE27D                 db  20h
+.data:003FE27E                 db  20h
+.data:003FE27F                 db  20h
+.data:003FE280                 db  20h
+.data:003FE281                 db  20h
+.data:003FE282                 db  20h
+.data:003FE283                 db  20h
+.data:003FE284                 db  20h
+.data:003FE285                 db  20h
+.data:003FE286                 db  20h
+.data:003FE287                 db  20h
+.data:003FE288                 db  20h
+.data:003FE289                 db  20h
+.data:003FE28A                 db  20h
+.data:003FE28B                 db  20h
+.data:003FE28C                 db  20h
+.data:003FE28D                 db  20h
+.data:003FE28E                 db  20h
+.data:003FE28F                 db  20h
+.data:003FE290                 db  20h
+.data:003FE291                 db  20h
+.data:003FE292                 db  20h
+.data:003FE293                 db  20h
+.data:003FE294                 db    0
+.data:003FE295                 db    0
+.data:003FE296                 db    0
+.data:003FE297                 db    0
+.data:003FE298                 db    0
+.data:003FE299                 db    0
+.data:003FE29A                 db    0
+.data:003FE29B                 db    0
+.data:003FE29C                 db    0
+.data:003FE29D                 db    0
+.data:003FE29E                 db    0
+.data:003FE29F                 db    0
+.data:003FE2A0                 db    0
+.data:003FE2A1                 db    0
+.data:003FE2A2                 db    0
+.data:003FE2A3                 db    0
+.data:003FE2A4                 db    0
+.data:003FE2A5                 db    0
+.data:003FE2A6                 db    0
+.data:003FE2A7                 db    0
+.data:003FE2A8                 db    0
+.data:003FE2A9                 db    0
+.data:003FE2AA                 db    0
+.data:003FE2AB                 db    0
+.data:003FE2AC                 db    0
+.data:003FE2AD                 db    0
+.data:003FE2AE                 db    0
+.data:003FE2AF                 db    0
+.data:003FE2B0                 db    0
+.data:003FE2B1                 db    0
+.data:003FE2B2                 db    0
+.data:003FE2B3                 db    0
+.data:003FE2B4                 db    0
+.data:003FE2B5                 db    0
+.data:003FE2B6                 db    0
+.data:003FE2B7                 db    0
+.data:003FE2B8                 db    0
+.data:003FE2B9                 db    0
+.data:003FE2BA                 db    0
+.data:003FE2BB                 db    0
+.data:003FE2BC                 db    0
+.data:003FE2BD                 db    0
+.data:003FE2BE                 db    0
+.data:003FE2BF                 db    0
+.data:003FE2C0                 db    0
+.data:003FE2C1                 db    0
+.data:003FE2C2                 db    0
+.data:003FE2C3                 db    0
+.data:003FE2C4                 db    0
+.data:003FE2C5                 db    0
+.data:003FE2C6                 db    0
+.data:003FE2C7                 db    0
+.data:003FE2C8                 db    0
+.data:003FE2C9                 db    0
+.data:003FE2CA                 db    0
+.data:003FE2CB                 db    0
+.data:003FE2CC                 db    0
+.data:003FE2CD                 db    0
+.data:003FE2CE                 db    0
+.data:003FE2CF                 db    0
+.data:003FE2D0                 db    0
+.data:003FE2D1                 db    0
+.data:003FE2D2                 db    0
+.data:003FE2D3                 db    0
+.data:003FE2D4                 db    0
+.data:003FE2D5                 db    0
+.data:003FE2D6                 db    0
+.data:003FE2D7                 db    0
+.data:003FE2D8                 db    0
+.data:003FE2D9                 db    0
+.data:003FE2DA                 db    0
+.data:003FE2DB                 db    0
+.data:003FE2DC                 db    0
+.data:003FE2DD                 db    0
+.data:003FE2DE                 db    0
+.data:003FE2DF                 db    0
+.data:003FE2E0                 db    0
+.data:003FE2E1                 db    0
+.data:003FE2E2                 db    0
+.data:003FE2E3                 db    0
+.data:003FE2E4                 db    0
+.data:003FE2E5                 db    0
+.data:003FE2E6                 db    0
+.data:003FE2E7                 db    0
+.data:003FE2E8                 db    0
+.data:003FE2E9                 db    0
+.data:003FE2EA                 db    0
+.data:003FE2EB                 db    0
+.data:003FE2EC                 db    0
+.data:003FE2ED                 db    0
+.data:003FE2EE                 db    0
+.data:003FE2EF                 db    0
+.data:003FE2F0                 db    0
+.data:003FE2F1                 db    0
+.data:003FE2F2                 db    0
+.data:003FE2F3                 db    0
+.data:003FE2F4                 db    0
+.data:003FE2F5                 db    0
+.data:003FE2F6                 db    0
+.data:003FE2F7                 db    0
+.data:003FE2F8                 db    0
+.data:003FE2F9                 db    0
+.data:003FE2FA                 db    0
+.data:003FE2FB                 db    0
+.data:003FE2FC                 db    0
+.data:003FE2FD                 db    0
+.data:003FE2FE                 db    0
+.data:003FE2FF                 db    0
+.data:003FE300                 db    0
+.data:003FE301                 db    0
+.data:003FE302                 db    0
+.data:003FE303                 db    0
+.data:003FE304                 db    0
+.data:003FE305                 db    0
+.data:003FE306                 db    0
+.data:003FE307                 db    0
+.data:003FE308                 db    0
+.data:003FE309                 db    0
+.data:003FE30A                 db    0
+.data:003FE30B                 db    0
+.data:003FE30C                 db    0
+.data:003FE30D                 db    0
+.data:003FE30E                 db    0
+.data:003FE30F                 db    0
+.data:003FE310                 db    0
+.data:003FE311                 db    0
+.data:003FE312                 db    0
+.data:003FE313                 db    0
+.data:003FE314                 db    0
+.data:003FE315                 db    0
+.data:003FE316                 db    0
+.data:003FE317                 db    0
+.data:003FE318                 db    0
+.data:003FE319                 db    0
+.data:003FE31A                 db    0
+.data:003FE31B                 db    0
+.data:003FE31C                 db    0
+.data:003FE31D                 db    0
+.data:003FE31E                 db    0
+.data:003FE31F                 db    0
+.data:003FE320                 db    0
+.data:003FE321                 db    0
+.data:003FE322                 db    0
+.data:003FE323                 db    0
+.data:003FE324                 db    0
+.data:003FE325                 db    0
+.data:003FE326                 db    0
+.data:003FE327                 db    0
+.data:003FE328                 db    0
+.data:003FE329                 db    0
+.data:003FE32A                 db    0
+.data:003FE32B                 db    0
+.data:003FE32C                 db    0
+.data:003FE32D                 db    0
+.data:003FE32E                 db    0
+.data:003FE32F                 db    0
+.data:003FE330                 db    0
+.data:003FE331                 db    0
+.data:003FE332                 db    0
+.data:003FE333                 db    0
+.data:003FE334                 db    0
+.data:003FE335                 db    0
+.data:003FE336                 db    0
+.data:003FE337                 db    0
+.data:003FE338                 db    0
+.data:003FE339                 db    0
+.data:003FE33A                 db    0
+.data:003FE33B                 db    0
+.data:003FE33C                 db    0
+.data:003FE33D                 db    0
+.data:003FE33E                 db    0
+.data:003FE33F                 db    0
+.data:003FE340                 db    0
+.data:003FE341                 db    0
+.data:003FE342                 db    0
+.data:003FE343                 db    0
+.data:003FE344                 db    0
+.data:003FE345                 db    0
+.data:003FE346                 db    0
+.data:003FE347                 db    0
+.data:003FE348                 db    0
+.data:003FE349                 db    0
+.data:003FE34A                 db    0
+.data:003FE34B                 db    0
+.data:003FE34C                 db    0
+.data:003FE34D                 db    0
+.data:003FE34E                 db    0
+.data:003FE34F                 db    0
+.data:003FE350                 db    0
+.data:003FE351                 db    0
+.data:003FE352                 db    0
+.data:003FE353                 db    0
+.data:003FE354                 db    0
+.data:003FE355                 db    0
+.data:003FE356                 db    0
+.data:003FE357                 db    0
+.data:003FE358                 db    0
+.data:003FE359                 db    0
+.data:003FE35A                 db  61h ; a
+.data:003FE35B                 db  62h ; b
+.data:003FE35C                 db  63h ; c
+.data:003FE35D                 db  64h ; d
+.data:003FE35E                 db  65h ; e
+.data:003FE35F                 db  66h ; f
+.data:003FE360                 db  67h ; g
+.data:003FE361                 db  68h ; h
+.data:003FE362                 db  69h ; i
+.data:003FE363                 db  6Ah ; j
+.data:003FE364                 db  6Bh ; k
+.data:003FE365                 db  6Ch ; l
+.data:003FE366                 db  6Dh ; m
+.data:003FE367                 db  6Eh ; n
+.data:003FE368                 db  6Fh ; o
+.data:003FE369                 db  70h ; p
+.data:003FE36A                 db  71h ; q
+.data:003FE36B                 db  72h ; r
+.data:003FE36C                 db  73h ; s
+.data:003FE36D                 db  74h ; t
+.data:003FE36E                 db  75h ; u
+.data:003FE36F                 db  76h ; v
+.data:003FE370                 db  77h ; w
+.data:003FE371                 db  78h ; x
+.data:003FE372                 db  79h ; y
+.data:003FE373                 db  7Ah ; z
+.data:003FE374                 db    0
+.data:003FE375                 db    0
+.data:003FE376                 db    0
+.data:003FE377                 db    0
+.data:003FE378                 db    0
+.data:003FE379                 db    0
+.data:003FE37A                 db  41h ; A
+.data:003FE37B                 db  42h ; B
+.data:003FE37C                 db  43h ; C
+.data:003FE37D                 db  44h ; D
+.data:003FE37E                 db  45h ; E
+.data:003FE37F                 db  46h ; F
+.data:003FE380                 db  47h ; G
+.data:003FE381                 db  48h ; H
+.data:003FE382                 db  49h ; I
+.data:003FE383                 db  4Ah ; J
+.data:003FE384                 db  4Bh ; K
+.data:003FE385                 db  4Ch ; L
+.data:003FE386                 db  4Dh ; M
+.data:003FE387                 db  4Eh ; N
+.data:003FE388                 db  4Fh ; O
+.data:003FE389                 db  50h ; P
+.data:003FE38A                 db  51h ; Q
+.data:003FE38B                 db  52h ; R
+.data:003FE38C                 db  53h ; S
+.data:003FE38D                 db  54h ; T
+.data:003FE38E                 db  55h ; U
+.data:003FE38F                 db  56h ; V
+.data:003FE390                 db  57h ; W
+.data:003FE391                 db  58h ; X
+.data:003FE392                 db  59h ; Y
+.data:003FE393                 db  5Ah ; Z
+.data:003FE394                 db    0
+.data:003FE395                 db    0
+.data:003FE396                 db    0
+.data:003FE397                 db    0
+.data:003FE398                 db    0
+.data:003FE399                 db    0
+.data:003FE39A                 db    0
+.data:003FE39B                 db    0
+.data:003FE39C                 db    0
+.data:003FE39D                 db    0
+.data:003FE39E                 db    0
+.data:003FE39F                 db    0
+.data:003FE3A0                 db    0
+.data:003FE3A1                 db    0
+.data:003FE3A2                 db    0
+.data:003FE3A3                 db    0
+.data:003FE3A4                 db    0
+.data:003FE3A5                 db    0
+.data:003FE3A6                 db    0
+.data:003FE3A7                 db    0
+.data:003FE3A8                 db    0
+.data:003FE3A9                 db    0
+.data:003FE3AA                 db    0
+.data:003FE3AB                 db    0
+.data:003FE3AC                 db    0
+.data:003FE3AD                 db    0
+.data:003FE3AE                 db    0
+.data:003FE3AF                 db    0
+.data:003FE3B0                 db    0
+.data:003FE3B1                 db    0
+.data:003FE3B2                 db    0
+.data:003FE3B3                 db    0
+.data:003FE3B4                 db    0
+.data:003FE3B5                 db    0
+.data:003FE3B6                 db    0
+.data:003FE3B7                 db    0
+.data:003FE3B8                 db    0
+.data:003FE3B9                 db    0
+.data:003FE3BA                 db    0
+.data:003FE3BB                 db    0
+.data:003FE3BC                 db    0
+.data:003FE3BD                 db    0
+.data:003FE3BE                 db    0
+.data:003FE3BF                 db    0
+.data:003FE3C0                 db    0
+.data:003FE3C1                 db    0
+.data:003FE3C2                 db    0
+.data:003FE3C3                 db    0
+.data:003FE3C4                 db    0
+.data:003FE3C5                 db    0
+.data:003FE3C6                 db    0
+.data:003FE3C7                 db    0
+.data:003FE3C8                 db    0
+.data:003FE3C9                 db    0
+.data:003FE3CA                 db    0
+.data:003FE3CB                 db    0
+.data:003FE3CC                 db    0
+.data:003FE3CD                 db    0
+.data:003FE3CE                 db    0
+.data:003FE3CF                 db    0
+.data:003FE3D0                 db    0
+.data:003FE3D1                 db    0
+.data:003FE3D2                 db    0
+.data:003FE3D3                 db    0
+.data:003FE3D4                 db    0
+.data:003FE3D5                 db    0
+.data:003FE3D6                 db    0
+.data:003FE3D7                 db    0
+.data:003FE3D8                 db    0
+.data:003FE3D9                 db    0
+.data:003FE3DA                 db    0
+.data:003FE3DB                 db    0
+.data:003FE3DC                 db    0
+.data:003FE3DD                 db    0
+.data:003FE3DE                 db    0
+.data:003FE3DF                 db    0
+.data:003FE3E0                 db    0
+.data:003FE3E1                 db    0
+.data:003FE3E2                 db    0
+.data:003FE3E3                 db    0
+.data:003FE3E4                 db    0
+.data:003FE3E5                 db    0
+.data:003FE3E6                 db    0
+.data:003FE3E7                 db    0
+.data:003FE3E8                 db    0
+.data:003FE3E9                 db    0
+.data:003FE3EA                 db    0
+.data:003FE3EB                 db    0
+.data:003FE3EC                 db    0
+.data:003FE3ED                 db    0
+.data:003FE3EE                 db    0
+.data:003FE3EF                 db    0
+.data:003FE3F0                 db    0
+.data:003FE3F1                 db    0
+.data:003FE3F2                 db    0
+.data:003FE3F3                 db    0
+.data:003FE3F4                 db    0
+.data:003FE3F5                 db    0
+.data:003FE3F6                 db    0
+.data:003FE3F7                 db    0
+.data:003FE3F8                 db    0
+.data:003FE3F9                 db    0
+.data:003FE3FA                 db    0
+.data:003FE3FB                 db    0
+.data:003FE3FC                 db    0
+.data:003FE3FD                 db    0
+.data:003FE3FE                 db    0
+.data:003FE3FF                 db    0
+.data:003FE400                 db    0
+.data:003FE401                 db    0
+.data:003FE402                 db    0
+.data:003FE403                 db    0
+.data:003FE404                 db    0
+.data:003FE405                 db    0
+.data:003FE406                 db    0
+.data:003FE407                 db    0
+.data:003FE408                 db    0
+.data:003FE409                 db    0
+.data:003FE40A                 db    0
+.data:003FE40B                 db    0
+.data:003FE40C                 db    0
+.data:003FE40D                 db    0
+.data:003FE40E                 db    0
+.data:003FE40F                 db    0
+.data:003FE410                 db    0
+.data:003FE411                 db    0
+.data:003FE412                 db    0
+.data:003FE413                 db    0
+.data:003FE414                 db    0
+.data:003FE415                 db    0
+.data:003FE416                 db    0
+.data:003FE417                 db    0
+.data:003FE418                 db    0
+.data:003FE419                 db    0
+.data:003FE41A                 db    0
+.data:003FE41B                 db    0
+.data:003FE41C                 db    0
+.data:003FE41D                 db    0
+.data:003FE41E                 db    0
+.data:003FE41F                 db    0
+.data:003FE420 unk_3FE420      db    0                 ; DATA XREF: ___acrt_initialize_multibyte+1D↑o
+.data:003FE421                 db    0
+.data:003FE422                 db    0
+.data:003FE423                 db    0
+.data:003FE424                 db    0
+.data:003FE425                 db    0
+.data:003FE426                 db    0
+.data:003FE427                 db    0
+.data:003FE428                 db    0
+.data:003FE429                 db    0
+.data:003FE42A                 db    0
+.data:003FE42B                 db    0
+.data:003FE42C                 db    0
+.data:003FE42D                 db    0
+.data:003FE42E                 db    0
+.data:003FE42F                 db    0
+.data:003FE430                 db    0
+.data:003FE431                 db    0
+.data:003FE432                 db    0
+.data:003FE433                 db    0
+.data:003FE434                 db    0
+.data:003FE435                 db    0
+.data:003FE436                 db    0
+.data:003FE437                 db    0
+.data:003FE438                 db    0
+.data:003FE439                 db    0
+.data:003FE43A                 db    0
+.data:003FE43B                 db    0
+.data:003FE43C                 db    0
+.data:003FE43D                 db    0
+.data:003FE43E                 db    0
+.data:003FE43F                 db    0
+.data:003FE440                 db    0
+.data:003FE441                 db    0
+.data:003FE442                 db    0
+.data:003FE443                 db    0
+.data:003FE444                 db    0
+.data:003FE445                 db    0
+.data:003FE446                 db    0
+.data:003FE447                 db    0
+.data:003FE448                 db    0
+.data:003FE449                 db    0
+.data:003FE44A                 db    0
+.data:003FE44B                 db    0
+.data:003FE44C                 db    0
+.data:003FE44D                 db    0
+.data:003FE44E                 db    0
+.data:003FE44F                 db    0
+.data:003FE450                 db    0
+.data:003FE451                 db    0
+.data:003FE452                 db    0
+.data:003FE453                 db    0
+.data:003FE454                 db    0
+.data:003FE455                 db    0
+.data:003FE456                 db    0
+.data:003FE457                 db    0
+.data:003FE458                 db    0
+.data:003FE459                 db    0
+.data:003FE45A                 db    0
+.data:003FE45B                 db    0
+.data:003FE45C                 db    0
+.data:003FE45D                 db    0
+.data:003FE45E                 db    0
+.data:003FE45F                 db    0
+.data:003FE460                 db    0
+.data:003FE461                 db    0
+.data:003FE462                 db  10h
+.data:003FE463                 db  10h
+.data:003FE464                 db  10h
+.data:003FE465                 db  10h
+.data:003FE466                 db  10h
+.data:003FE467                 db  10h
+.data:003FE468                 db  10h
+.data:003FE469                 db  10h
+.data:003FE46A                 db  10h
+.data:003FE46B                 db  10h
+.data:003FE46C                 db  10h
+.data:003FE46D                 db  10h
+.data:003FE46E                 db  10h
+.data:003FE46F                 db  10h
+.data:003FE470                 db  10h
+.data:003FE471                 db  10h
+.data:003FE472                 db  10h
+.data:003FE473                 db  10h
+.data:003FE474                 db  10h
+.data:003FE475                 db  10h
+.data:003FE476                 db  10h
+.data:003FE477                 db  10h
+.data:003FE478                 db  10h
+.data:003FE479                 db  10h
+.data:003FE47A                 db  10h
+.data:003FE47B                 db  10h
+.data:003FE47C                 db    0
+.data:003FE47D                 db    0
+.data:003FE47E                 db    0
+.data:003FE47F                 db    0
+.data:003FE480                 db    0
+.data:003FE481                 db    0
+.data:003FE482                 db  20h
+.data:003FE483                 db  20h
+.data:003FE484                 db  20h
+.data:003FE485                 db  20h
+.data:003FE486                 db  20h
+.data:003FE487                 db  20h
+.data:003FE488                 db  20h
+.data:003FE489                 db  20h
+.data:003FE48A                 db  20h
+.data:003FE48B                 db  20h
+.data:003FE48C                 db  20h
+.data:003FE48D                 db  20h
+.data:003FE48E                 db  20h
+.data:003FE48F                 db  20h
+.data:003FE490                 db  20h
+.data:003FE491                 db  20h
+.data:003FE492                 db  20h
+.data:003FE493                 db  20h
+.data:003FE494                 db  20h
+.data:003FE495                 db  20h
+.data:003FE496                 db  20h
+.data:003FE497                 db  20h
+.data:003FE498                 db  20h
+.data:003FE499                 db  20h
+.data:003FE49A                 db  20h
+.data:003FE49B                 db  20h
+.data:003FE49C                 db    0
+.data:003FE49D                 db    0
+.data:003FE49E                 db    0
+.data:003FE49F                 db    0
+.data:003FE4A0                 db    0
+.data:003FE4A1                 db    0
+.data:003FE4A2                 db    0
+.data:003FE4A3                 db    0
+.data:003FE4A4                 db    0
+.data:003FE4A5                 db    0
+.data:003FE4A6                 db    0
+.data:003FE4A7                 db    0
+.data:003FE4A8                 db    0
+.data:003FE4A9                 db    0
+.data:003FE4AA                 db    0
+.data:003FE4AB                 db    0
+.data:003FE4AC                 db    0
+.data:003FE4AD                 db    0
+.data:003FE4AE                 db    0
+.data:003FE4AF                 db    0
+.data:003FE4B0                 db    0
+.data:003FE4B1                 db    0
+.data:003FE4B2                 db    0
+.data:003FE4B3                 db    0
+.data:003FE4B4                 db    0
+.data:003FE4B5                 db    0
+.data:003FE4B6                 db    0
+.data:003FE4B7                 db    0
+.data:003FE4B8                 db    0
+.data:003FE4B9                 db    0
+.data:003FE4BA                 db    0
+.data:003FE4BB                 db    0
+.data:003FE4BC                 db    0
+.data:003FE4BD                 db    0
+.data:003FE4BE                 db    0
+.data:003FE4BF                 db    0
+.data:003FE4C0                 db    0
+.data:003FE4C1                 db    0
+.data:003FE4C2                 db    0
+.data:003FE4C3                 db    0
+.data:003FE4C4                 db    0
+.data:003FE4C5                 db    0
+.data:003FE4C6                 db    0
+.data:003FE4C7                 db    0
+.data:003FE4C8                 db    0
+.data:003FE4C9                 db    0
+.data:003FE4CA                 db    0
+.data:003FE4CB                 db    0
+.data:003FE4CC                 db    0
+.data:003FE4CD                 db    0
+.data:003FE4CE                 db    0
+.data:003FE4CF                 db    0
+.data:003FE4D0                 db    0
+.data:003FE4D1                 db    0
+.data:003FE4D2                 db    0
+.data:003FE4D3                 db    0
+.data:003FE4D4                 db    0
+.data:003FE4D5                 db    0
+.data:003FE4D6                 db    0
+.data:003FE4D7                 db    0
+.data:003FE4D8                 db    0
+.data:003FE4D9                 db    0
+.data:003FE4DA                 db    0
+.data:003FE4DB                 db    0
+.data:003FE4DC                 db    0
+.data:003FE4DD                 db    0
+.data:003FE4DE                 db    0
+.data:003FE4DF                 db    0
+.data:003FE4E0                 db    0
+.data:003FE4E1                 db    0
+.data:003FE4E2                 db    0
+.data:003FE4E3                 db    0
+.data:003FE4E4                 db    0
+.data:003FE4E5                 db    0
+.data:003FE4E6                 db    0
+.data:003FE4E7                 db    0
+.data:003FE4E8                 db    0
+.data:003FE4E9                 db    0
+.data:003FE4EA                 db    0
+.data:003FE4EB                 db    0
+.data:003FE4EC                 db    0
+.data:003FE4ED                 db    0
+.data:003FE4EE                 db    0
+.data:003FE4EF                 db    0
+.data:003FE4F0                 db    0
+.data:003FE4F1                 db    0
+.data:003FE4F2                 db    0
+.data:003FE4F3                 db    0
+.data:003FE4F4                 db    0
+.data:003FE4F5                 db    0
+.data:003FE4F6                 db    0
+.data:003FE4F7                 db    0
+.data:003FE4F8                 db    0
+.data:003FE4F9                 db    0
+.data:003FE4FA                 db    0
+.data:003FE4FB                 db    0
+.data:003FE4FC                 db    0
+.data:003FE4FD                 db    0
+.data:003FE4FE                 db    0
+.data:003FE4FF                 db    0
+.data:003FE500                 db    0
+.data:003FE501                 db    0
+.data:003FE502                 db    0
+.data:003FE503                 db    0
+.data:003FE504                 db    0
+.data:003FE505                 db    0
+.data:003FE506                 db    0
+.data:003FE507                 db    0
+.data:003FE508                 db    0
+.data:003FE509                 db    0
+.data:003FE50A                 db    0
+.data:003FE50B                 db    0
+.data:003FE50C                 db    0
+.data:003FE50D                 db    0
+.data:003FE50E                 db    0
+.data:003FE50F                 db    0
+.data:003FE510                 db    0
+.data:003FE511                 db    0
+.data:003FE512                 db    0
+.data:003FE513                 db    0
+.data:003FE514                 db    0
+.data:003FE515                 db    0
+.data:003FE516                 db    0
+.data:003FE517                 db    0
+.data:003FE518                 db    0
+.data:003FE519                 db    0
+.data:003FE51A                 db    0
+.data:003FE51B                 db    0
+.data:003FE51C                 db    0
+.data:003FE51D                 db    0
+.data:003FE51E                 db    0
+.data:003FE51F                 db    0
+.data:003FE520                 db    0
+.data:003FE521                 db    0
+.data:003FE522                 db    0
+.data:003FE523                 db    0
+.data:003FE524                 db    0
+.data:003FE525                 db    0
+.data:003FE526                 db    0
+.data:003FE527                 db    0
+.data:003FE528 unk_3FE528      db    0                 ; DATA XREF: ___acrt_initialize_multibyte+13↑o
+.data:003FE529                 db    0
+.data:003FE52A                 db    0
+.data:003FE52B                 db    0
+.data:003FE52C                 db    0
+.data:003FE52D                 db    0
+.data:003FE52E                 db    0
+.data:003FE52F                 db    0
+.data:003FE530                 db    0
+.data:003FE531                 db    0
+.data:003FE532                 db    0
+.data:003FE533                 db    0
+.data:003FE534                 db    0
+.data:003FE535                 db    0
+.data:003FE536                 db    0
+.data:003FE537                 db    0
+.data:003FE538                 db    0
+.data:003FE539                 db    0
+.data:003FE53A                 db    0
+.data:003FE53B                 db    0
+.data:003FE53C                 db    0
+.data:003FE53D                 db    0
+.data:003FE53E                 db    0
+.data:003FE53F                 db    0
+.data:003FE540                 db    0
+.data:003FE541                 db    0
+.data:003FE542                 db    0
+.data:003FE543                 db    0
+.data:003FE544                 db    0
+.data:003FE545                 db    0
+.data:003FE546                 db    0
+.data:003FE547                 db    0
+.data:003FE548                 db    0
+.data:003FE549                 db    0
+.data:003FE54A                 db    0
+.data:003FE54B                 db    0
+.data:003FE54C                 db    0
+.data:003FE54D                 db    0
+.data:003FE54E                 db    0
+.data:003FE54F                 db    0
+.data:003FE550                 db    0
+.data:003FE551                 db    0
+.data:003FE552                 db    0
+.data:003FE553                 db    0
+.data:003FE554                 db    0
+.data:003FE555                 db    0
+.data:003FE556                 db    0
+.data:003FE557                 db    0
+.data:003FE558                 db    0
+.data:003FE559                 db    0
+.data:003FE55A                 db    0
+.data:003FE55B                 db    0
+.data:003FE55C                 db    0
+.data:003FE55D                 db    0
+.data:003FE55E                 db    0
+.data:003FE55F                 db    0
+.data:003FE560                 db    0
+.data:003FE561                 db    0
+.data:003FE562                 db    0
+.data:003FE563                 db    0
+.data:003FE564                 db    0
+.data:003FE565                 db    0
+.data:003FE566                 db    0
+.data:003FE567                 db    0
+.data:003FE568                 db    0
+.data:003FE569                 db  61h ; a
+.data:003FE56A                 db  62h ; b
+.data:003FE56B                 db  63h ; c
+.data:003FE56C                 db  64h ; d
+.data:003FE56D                 db  65h ; e
+.data:003FE56E                 db  66h ; f
+.data:003FE56F                 db  67h ; g
+.data:003FE570                 db  68h ; h
+.data:003FE571                 db  69h ; i
+.data:003FE572                 db  6Ah ; j
+.data:003FE573                 db  6Bh ; k
+.data:003FE574                 db  6Ch ; l
+.data:003FE575                 db  6Dh ; m
+.data:003FE576                 db  6Eh ; n
+.data:003FE577                 db  6Fh ; o
+.data:003FE578                 db  70h ; p
+.data:003FE579                 db  71h ; q
+.data:003FE57A                 db  72h ; r
+.data:003FE57B                 db  73h ; s
+.data:003FE57C                 db  74h ; t
+.data:003FE57D                 db  75h ; u
+.data:003FE57E                 db  76h ; v
+.data:003FE57F                 db  77h ; w
+.data:003FE580                 db  78h ; x
+.data:003FE581                 db  79h ; y
+.data:003FE582                 db  7Ah ; z
+.data:003FE583                 db    0
+.data:003FE584                 db    0
+.data:003FE585                 db    0
+.data:003FE586                 db    0
+.data:003FE587                 db    0
+.data:003FE588                 db    0
+.data:003FE589                 db  41h ; A
+.data:003FE58A                 db  42h ; B
+.data:003FE58B                 db  43h ; C
+.data:003FE58C                 db  44h ; D
+.data:003FE58D                 db  45h ; E
+.data:003FE58E                 db  46h ; F
+.data:003FE58F                 db  47h ; G
+.data:003FE590                 db  48h ; H
+.data:003FE591                 db  49h ; I
+.data:003FE592                 db  4Ah ; J
+.data:003FE593                 db  4Bh ; K
+.data:003FE594                 db  4Ch ; L
+.data:003FE595                 db  4Dh ; M
+.data:003FE596                 db  4Eh ; N
+.data:003FE597                 db  4Fh ; O
+.data:003FE598                 db  50h ; P
+.data:003FE599                 db  51h ; Q
+.data:003FE59A                 db  52h ; R
+.data:003FE59B                 db  53h ; S
+.data:003FE59C                 db  54h ; T
+.data:003FE59D                 db  55h ; U
+.data:003FE59E                 db  56h ; V
+.data:003FE59F                 db  57h ; W
+.data:003FE5A0                 db  58h ; X
+.data:003FE5A1                 db  59h ; Y
+.data:003FE5A2                 db  5Ah ; Z
+.data:003FE5A3                 db    0
+.data:003FE5A4                 db    0
+.data:003FE5A5                 db    0
+.data:003FE5A6                 db    0
+.data:003FE5A7                 db    0
+.data:003FE5A8                 db    0
+.data:003FE5A9                 db    0
+.data:003FE5AA                 db    0
+.data:003FE5AB                 db    0
+.data:003FE5AC                 db    0
+.data:003FE5AD                 db    0
+.data:003FE5AE                 db    0
+.data:003FE5AF                 db    0
+.data:003FE5B0                 db    0
+.data:003FE5B1                 db    0
+.data:003FE5B2                 db    0
+.data:003FE5B3                 db    0
+.data:003FE5B4                 db    0
+.data:003FE5B5                 db    0
+.data:003FE5B6                 db    0

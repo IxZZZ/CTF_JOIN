@@ -1,0 +1,16 @@
+offset = 0x176965
+
+Spell.EXE
+
+if ( (unsigned __int8)((__int64 (__fastcall *)(__int64, __int64))unk_13B4BDF1F80)(a1, v20) )
+@USVWATAUAVAWH
+
+d41d8cd98f00b204e9800998ecf8427e
+
+
+l3rlcps_7r_vb33eehskc3@flare-on.com
+l3rlcps_7r_vb33eehskc3
+
+b3s7_sp
+
+flag = b3s7_sp3llcheck3r_ev3r@flare-on.com

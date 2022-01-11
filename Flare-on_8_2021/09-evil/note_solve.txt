@@ -1,0 +1,45 @@
+aexit -> function to be called when program terrminates normally - LIFO
+
+
+000D6AD0 -> (a1, dword_3a1c78, dword_3a1c7c(call))
+
+
+0x0d2460
+
+not suspend thread main
+thread 80 -> waitforsingleobject -> suspend (waitforsingleobject 2nd)
+thread 10 -> recvfrom(1st) -> send -> suspend(recvfrom) -> resume thread 80
+
+first 4 bytes: 1,2,3 jz func
+s  = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+
+socket = ('127.0.0.1',1226)
+
+0x4ca
+
+L0ve_s3cret_5Ex_d0g@flare-on.com
+
+1 -> N3ver_G0nNa_g1ve_y0u_Up@flare-on.com
+
+2 _> (L0ve,s3cret,5Ex,g0d)
+
+3 -> ()
+
+import socket
+s  = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+p_1 = b'\x02\x00\x00\x00\x05\x00\x00\x00L0ve\x00'
+p_2 = b'\x02\x00\x00\x00\x07\x00\x00\x00s3cret\x00'
+p_3 = b'\x02\x00\x00\x00\x04\x00\x00\x005Ex\x00'
+p_4 = b'\x02\x00\x00\x00\x04\x00\x00\x00g0d\x00'
+p_5 = b'\x03\x00\x00\x00\x02\x00\x00\x00MZ'
+
+s.sendto(p_1,('127.0.0.1',1226))
+s.sendto(p_2,('127.0.0.1',1226))
+s.sendto(p_3,('127.0.0.1',1226))
+s.sendto(p_4,('127.0.0.1',1226))
+s.sendto(p_5,('127.0.0.1',1226))
+
+
+
+fuck fuck
+n0_mOr3_eXcEpti0n$_p1ea$e@flare-on.com

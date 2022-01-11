@@ -1,0 +1,873 @@
+jnz 
+mov     cl, [edi]
+xor     cl, [edi+4E]
+xor     cl, [edi+31]
+xor     cl, [edi+3]
+add     cl, [edi+21]
+sub     cl, [edi+31]
+sub     cl, [edi+1A]
+cmp     cl, 1C
+jnz     loc_13A22FA
+mov     cl, [edi+1]
+and     cl, [edi+3A]
+and     cl, [edi+2A]
+add     cl, [edi+15]
+add     cl, [edi+2B]
+xor     cl, [edi+45]
+or      cl, [edi+2C]
+cmp     cl, 0F7 
+jnz     loc_13A22FA
+mov     cl, [edi+2]
+and     cl, [edi+0D]
+xor     cl, [edi+40]
+add     cl, [edi+2D]
+xor     cl, [edi+1A]
+sub     cl, [edi+22]
+sub     cl, [edi+46]
+cmp     cl, 0CA 
+jnz     loc_13A22FA
+mov     cl, [edi+3]
+sub     cl, [edi+29]
+or      cl, [edi+28]
+and     cl, [edi+52]
+add     cl, [edi+50]
+add     cl, [edi+47]
+and     cl, [edi+4C]
+cmp     cl, 31 
+jnz     loc_13A22FA
+mov     cl, [edi+4]
+xor     cl, [edi+23]
+xor     cl, [edi+14]
+xor     cl, [edi+55]
+sub     cl, [edi+40]
+or      cl, [edi+0E]
+xor     cl, [edi+1E]
+cmp     cl, 0A3 
+jnz     loc_13A22FA
+mov     cl, [edi+5]
+xor     cl, [edi+16]
+xor     cl, [edi+20]
+add     cl, [edi+41]
+xor     cl, [edi+3C]
+add     cl, [edi+37]
+add     cl, [edi+46]
+cmp     cl, 5E 
+jnz     loc_13A22FA
+mov     cl, [edi+6]
+sub     cl, [edi+6]
+and     cl, [edi+0C]
+xor     cl, [edi+4A]
+xor     cl, [edi+3E]
+xor     cl, [edi+13]
+xor     cl, [edi+12]
+cmp     cl, 0
+jnz     loc_13A22FA
+mov     cl, [edi+7]
+xor     cl, [edi+34]
+add     cl, [edi+26]
+xor     cl, [edi+30]
+xor     cl, [edi+25]
+xor     cl, [edi+51]
+xor     cl, [edi+3]
+cmp     cl, 0CF 
+jnz     loc_13A22FA
+mov     cl, [edi+8]
+xor     cl, [edi+4E]
+and     cl, [edi+1A]
+and     cl, [edi+52]
+sub     cl, [edi+5B]
+or      cl, [edi+31]
+sub     cl, [edi+35]
+cmp     cl, 0A0 
+jnz     loc_13A22FA
+mov     cl, [edi+9]
+xor     cl, [edi+0F]
+and     cl, [edi+3F]
+sub     cl, [edi+3]
+xor     cl, [edi+5A]
+add     cl, [edi+37]
+sub     cl, [edi+58]
+cmp     cl, 0C7 
+jnz     loc_13A22FA
+mov     cl, [edi+0A]
+or      cl, [edi+21]
+xor     cl, [edi+18]
+add     cl, [edi+48]
+xor     cl, [edi+54]
+add     cl, [edi+4E]
+or      cl, [edi+0D]
+cmp     cl, 5F 
+jnz     loc_13A22FA
+mov     cl, [edi+0B]
+or      cl, [edi+0B]
+xor     cl, [edi+4E]
+sub     cl, [edi+47]
+sub     cl, [edi+29]
+and     cl, [edi+4]
+or      cl, [edi+5]
+cmp     cl, 63 
+jnz     loc_13A22FA
+mov     cl, [edi+0C]
+and     cl, [edi+47]
+add     cl, [edi+1]
+sub     cl, [edi+42]
+xor     cl, [edi+5C]
+and     cl, [edi+59]
+xor     cl, [edi+5B]
+cmp     cl, 1
+jnz     loc_13A22FA
+mov     cl, [edi+0D]
+xor     cl, [edi+10]
+add     cl, [edi+26]
+add     cl, [edi+15]
+xor     cl, [edi+20]
+add     cl, [edi+16]
+sub     cl, [edi+3B]
+cmp     cl, 0D
+jnz     loc_13A22FA
+mov     cl, [edi+0E]
+add     cl, [edi+14]
+sub     cl, [edi]
+xor     cl, [edi+4C]
+or      cl, [edi+5A]
+sub     cl, [edi+28]
+sub     cl, [edi+48]
+cmp     cl, 0C8 
+jnz     loc_13A22FA
+mov     cl, [edi+0F]
+sub     cl, [edi+54]
+sub     cl, [edi+17]
+add     cl, [edi+8]
+add     cl, [edi+3C]
+and     cl, [edi+4C]
+xor     cl, [edi+4C]
+cmp     cl, 20 
+jnz     loc_13A22FA
+mov     cl, [edi+10]
+or      cl, [edi+5]
+and     cl, [edi+8]
+xor     cl, [edi+52]
+xor     cl, [edi+27]
+and     cl, [edi+5A]
+and     cl, [edi+0C]
+cmp     cl, 20 
+jnz     loc_13A22FA
+mov     cl, [edi+11]
+or      cl, [edi+2B]
+add     cl, [edi+1E]
+add     cl, [edi+46]
+or      cl, [edi+3F]
+or      cl, [edi+4F]
+xor     cl, [edi+24]
+cmp     cl, 39 
+jnz     loc_13A22FA
+mov     cl, [edi+12]
+sub     cl, [edi+57]
+or      cl, [edi+53]
+xor     cl, [edi+24]
+or      cl, [edi+13]
+xor     cl, [edi+2]
+sub     cl, [edi+50]
+cmp     cl, 0B7 
+jnz     loc_13A22FA
+mov     cl, [edi+13]
+sub     cl, [edi+3F]
+xor     cl, [edi+0A]
+add     cl, [edi+52]
+xor     cl, [edi+14]
+xor     cl, [edi+6]
+xor     cl, [edi+40]
+cmp     cl, 0AE 
+jnz     loc_13A22FA
+mov     cl, [edi+14]
+or      cl, [edi+39]
+xor     cl, [edi+47]
+or      cl, [edi+27]
+or      cl, [edi+0D]
+add     cl, [edi+50]
+xor     cl, [edi+5B]
+cmp     cl, 0C9 
+jnz     loc_13A22FA
+mov     cl, [edi+15]
+xor     cl, [edi+36]
+add     cl, [edi+47]
+xor     cl, [edi+48]
+and     cl, [edi+56]
+xor     cl, [edi+55]
+xor     cl, [edi+56]
+cmp     cl, 5D 
+jnz     loc_13A22FA
+mov     cl, [edi+16]
+sub     cl, [edi+3A]
+xor     cl, [edi+0E]
+xor     cl, [edi+41]
+xor     cl, [edi+13]
+xor     cl, [edi+39]
+sub     cl, [edi+26]
+cmp     cl, 5E 
+jnz     loc_13A22FA
+mov     cl, [edi+17]
+xor     cl, [edi+49]
+and     cl, [edi+48]
+xor     cl, [edi+1A]
+sub     cl, [edi+1]
+xor     cl, [edi+6]
+xor     cl, [edi+15]
+cmp     cl, 0F4 
+jnz     loc_13A22FA
+mov     cl, [edi+18]
+sub     cl, [edi+4C]
+and     cl, [edi+10]
+add     cl, [edi+34]
+xor     cl, [edi+24]
+and     cl, [edi+45]
+and     cl, [edi+1D]
+cmp     cl, 4
+jnz     loc_13A22FA
+mov     cl, [edi+19]
+add     cl, [edi+2A]
+xor     cl, [edi+26]
+and     cl, [edi+37]
+sub     cl, [edi+50]
+or      cl, [edi+0C]
+or      cl, [edi+0A]
+cmp     cl, 0FE 
+jnz     loc_13A22FA
+mov     cl, [edi+1A]
+and     cl, [edi+47]
+add     cl, [edi+14]
+and     cl, [edi+10]
+sub     cl, [edi+2F]
+and     cl, [edi+2F]
+add     cl, [edi+18]
+cmp     cl, 83 
+jnz     loc_13A22FA
+mov     cl, [edi+1B]
+and     cl, [edi+50]
+and     cl, [edi+4C]
+xor     cl, [edi+5B]
+or      cl, [edi+14]
+and     cl, [edi+58]
+sub     cl, [edi+0D]
+cmp     cl, 0F5 
+jnz     loc_13A22FA
+mov     cl, [edi+1C]
+xor     cl, [edi+59]
+and     cl, [edi+1]
+or      cl, [edi+4F]
+xor     cl, [edi+7]
+and     cl, [edi+4]
+add     cl, [edi+0C]
+cmp     cl, 74 
+jnz     loc_13A22FA
+mov     cl, [edi+1D]
+xor     cl, [edi+3A]
+sub     cl, [edi+36]
+add     cl, [edi+44]
+xor     cl, [edi+16]
+xor     cl, [edi+20]
+xor     cl, [edi+5F]
+cmp     cl, 4C 
+jnz     loc_13A22FA
+mov     cl, [edi+1E]
+xor     cl, [edi+29]
+xor     cl, [edi+2C]
+or      cl, [edi+28]
+and     cl, [edi+1A]
+xor     cl, [edi+3B]
+xor     cl, [edi+45]
+cmp     cl, 13
+jnz     loc_13A22FA
+mov     cl, [edi+1F]
+and     cl, [edi+18]
+and     cl, [edi+10]
+add     cl, [edi+1C]
+sub     cl, [edi+24]
+sub     cl, [edi+56]
+xor     cl, [edi+32]
+cmp     cl, 0C0 
+jnz     loc_13A22FA
+mov     cl, [edi+20]
+sub     cl, [edi+21]
+xor     cl, [edi+24]
+xor     cl, [edi+36]
+xor     cl, [edi+45]
+xor     cl, [edi+25]
+xor     cl, [edi+32]
+cmp     cl, 9B 
+jnz     loc_13A22FA
+mov     cl, [edi+21]
+add     cl, [edi+16]
+add     cl, [edi+2D]
+add     cl, [edi+5E]
+xor     cl, [edi+34]
+and     cl, [edi+0C]
+xor     cl, [edi+38]
+cmp     cl, 2E 
+jnz     loc_13A22FA
+mov     cl, [edi+22]
+xor     cl, [edi+6]
+add     cl, [edi+59]
+sub     cl, [edi+17]
+sub     cl, [edi+14]
+sub     cl, [edi+2A]
+xor     cl, [edi+13]
+cmp     cl, 6B 
+jnz     loc_13A22FA
+mov     cl, [edi+23]
+xor     cl, [edi+5B]
+add     cl, [edi+1B]
+or      cl, [edi+48]
+or      cl, [edi+21]
+add     cl, [edi+3C]
+or      cl, [edi+0A]
+cmp     cl, 69 
+jnz     loc_13A22FA
+mov     cl, [edi+24]
+xor     cl, [edi+2A]
+and     cl, [edi+13]
+and     cl, [edi+18]
+xor     cl, [edi+18]
+and     cl, [edi+3]
+xor     cl, [edi+5E]
+cmp     cl, 2A 
+jnz     loc_13A22FA
+mov     cl, [edi+25]
+or      cl, [edi+58]
+xor     cl, [edi+7]
+sub     cl, [edi+13]
+or      cl, [edi+47]
+or      cl, [edi+39]
+xor     cl, [edi+11]
+cmp     cl, 8E 
+jnz     loc_13A22FA
+mov     cl, [edi+26]
+sub     cl, [edi+9]
+xor     cl, [edi+4C]
+xor     cl, [edi+47]
+and     cl, [edi+4C]
+xor     cl, [edi]
+xor     cl, [edi+38]
+cmp     cl, 39 
+jnz     loc_13A22FA
+mov     cl, [edi+27]
+add     cl, [edi+39]
+xor     cl, [edi+4]
+add     cl, [edi+14]
+add     cl, [edi+0B]
+xor     cl, [edi+8]
+xor     cl, [edi+16]
+cmp     cl, 0C
+jnz     loc_13A22FA
+mov     cl, [edi+28]
+add     cl, [edi+43]
+xor     cl, [edi+26]
+sub     cl, [edi+4E]
+add     cl, [edi+55]
+or      cl, [edi+4D]
+add     cl, [edi+5B]
+cmp     cl, 2F 
+jnz     loc_13A22FA
+mov     cl, [edi+29]
+or      cl, [edi+4E]
+xor     cl, [edi+0B]
+and     cl, [edi+33]
+xor     cl, [edi+55]
+xor     cl, [edi+56]
+add     cl, [edi+54]
+cmp     cl, 92 
+jnz     loc_13A22FA
+mov     cl, [edi+2A]
+xor     cl, [edi]
+xor     cl, [edi+1B]
+sub     cl, [edi+41]
+add     cl, [edi+5A]
+xor     cl, [edi+1F]
+xor     cl, [edi+0C]
+cmp     cl, 0E3 
+jnz     loc_13A22FA
+mov     cl, [edi+2B]
+xor     cl, [edi+2]
+and     cl, [edi+28]
+xor     cl, [edi+3F]
+add     cl, [edi+40]
+xor     cl, [edi+47]
+xor     cl, [edi+4B]
+cmp     cl, 21 
+jnz     loc_13A22FA
+mov     cl, [edi+2C]
+sub     cl, [edi+9]
+xor     cl, [edi+51]
+or      cl, [edi+23]
+xor     cl, [edi+1B]
+xor     cl, [edi+5D]
+sub     cl, [edi+4C]
+cmp     cl, 9
+jnz     loc_13A22FA
+mov     cl, [edi+2D]
+or      cl, [edi+1E]
+and     cl, [edi+47]
+xor     cl, [edi+4E]
+and     cl, [edi+55]
+and     cl, [edi+3D]
+or      cl, [edi+58]
+cmp     cl, 7F
+jnz     loc_13A22FA
+mov     cl, [edi+2E]
+and     cl, [edi+59]
+sub     cl, [edi+5A]
+xor     cl, [edi+4C]
+xor     cl, [edi+15]
+xor     cl, [edi+29]
+xor     cl, [edi+18]
+cmp     cl, 42 
+jnz     loc_13A22FA
+mov     cl, [edi+2F]
+xor     cl, [edi+24]
+xor     cl, [edi+3D]
+sub     cl, [edi+12]
+add     cl, [edi+1C]
+xor     cl, [edi+56]
+sub     cl, [edi+44]
+cmp     cl, 0FC 
+jnz     loc_13A22FA
+mov     cl, [edi+30]
+or      cl, [edi+17]
+xor     cl, [edi+3D]
+xor     cl, [edi+2E]
+or      cl, [edi+8]
+add     cl, [edi+18]
+xor     cl, [edi+5F]
+cmp     cl, 0A7 
+jnz     loc_13A22FA
+mov     cl, [edi+31]
+xor     cl, [edi+43]
+xor     cl, [edi+20]
+add     cl, [edi+5F]
+or      cl, [edi+19]
+sub     cl, [edi+2A]
+add     cl, [edi+13]
+cmp     cl, 0F6 
+jnz     loc_13A22FA
+mov     cl, [edi+32]
+xor     cl, [edi+13]
+xor     cl, [edi+55]
+xor     cl, [edi+5A]
+sub     cl, [edi+24]
+sub     cl, [edi+2E]
+xor     cl, [edi+43]
+cmp     cl, 61 
+jnz     loc_13A22FA
+mov     cl, [edi+33]
+add     cl, [edi+3B]
+xor     cl, [edi+3C]
+sub     cl, [edi+38]
+and     cl, [edi+4]
+xor     cl, [edi+27]
+xor     cl, [edi+1D]
+cmp     cl, 43 
+jnz     loc_13A22FA
+mov     cl, [edi+34]
+add     cl, [edi+17]
+xor     cl, [edi+45]
+xor     cl, [edi+0A]
+add     cl, [edi+5B]
+and     cl, [edi+24]
+and     cl, [edi+5B]
+cmp     cl, 0
+jnz     loc_13A22FA
+mov     cl, [edi+35]
+xor     cl, [edi+51]
+add     cl, [edi+34]
+and     cl, [edi+2D]
+xor     cl, [edi+13]
+and     cl, [edi+1C]
+xor     cl, [edi+58]
+cmp     cl, 1F
+jnz     loc_13A22FA
+mov     cl, [edi+36]
+and     cl, [edi+52]
+sub     cl, [edi+3C]
+or      cl, [edi+2C]
+add     cl, [edi+1B]
+xor     cl, [edi+39]
+xor     cl, [edi+3E]
+cmp     cl, 0B7 
+jnz     loc_13A22FA
+mov     cl, [edi+37]
+xor     cl, [edi+51]
+xor     cl, [edi+0B]
+add     cl, [edi+0A]
+sub     cl, [edi+11]
+xor     cl, [edi+0C]
+and     cl, [edi+45]
+cmp     cl, 5E 
+jnz     loc_13A22FA
+mov     cl, [edi+38]
+xor     cl, [edi+5D]
+xor     cl, [edi+13]
+xor     cl, [edi+35]
+sub     cl, [edi+24]
+xor     cl, [edi+33]
+add     cl, [edi+58]
+cmp     cl, 39 
+jnz     loc_13A22FA
+mov     cl, [edi+39]
+xor     cl, [edi+12]
+xor     cl, [edi+0B]
+add     cl, [edi+0D]
+xor     cl, [edi+10]
+or      cl, [edi+45]
+or      cl, [edi+3D]
+cmp     cl, 0FF
+jnz     loc_13A22FA
+mov     cl, [edi+3A]
+xor     cl, [edi+43]
+xor     cl, [edi+27]
+xor     cl, [edi+3D]
+xor     cl, [edi+3D]
+xor     cl, [edi+3C]
+or      cl, [edi+59]
+cmp     cl, 7A 
+jnz     loc_13A22FA
+mov     cl, [edi+3B]
+sub     cl, [edi+56]
+sub     cl, [edi+2E]
+and     cl, [edi+4]
+xor     cl, [edi+45]
+xor     cl, [edi+28]
+add     cl, [edi+0A]
+cmp     cl, 6C 
+jnz     loc_13A22FA
+mov     cl, [edi+3C]
+xor     cl, [edi+54]
+xor     cl, [edi+4C]
+sub     cl, [edi+42]
+xor     cl, [edi+12]
+or      cl, [edi+44]
+and     cl, [edi+28]
+cmp     cl, 5F 
+jnz     loc_13A22FA
+mov     cl, [edi+3D]
+sub     cl, [edi+57]
+xor     cl, [edi+51]
+add     cl, [edi+38]
+xor     cl, [edi+52]
+xor     cl, [edi+35]
+and     cl, [edi+36]
+cmp     cl, 42 
+jnz     loc_13A22FA
+mov     cl, [edi+3E]
+xor     cl, [edi+29]
+sub     cl, [edi+2A]
+xor     cl, [edi+43]
+sub     cl, [edi+3]
+xor     cl, [edi+38]
+sub     cl, [edi+2C]
+cmp     cl, 78 
+jnz     loc_13A22FA
+mov     cl, [edi+3F]
+xor     cl, [edi+35]
+or      cl, [edi+17]
+or      cl, [edi+5A]
+xor     cl, [edi+1E]
+or      cl, [edi+37]
+xor     cl, [edi+0E]
+cmp     cl, 0B
+jnz     loc_13A22FA
+mov     cl, [edi+40]
+and     cl, [edi+1D]
+or      cl, [edi+47]
+xor     cl, [edi+2E]
+xor     cl, [edi+2C]
+xor     cl, [edi+3B]
+and     cl, [edi+3C]
+cmp     cl, 22 
+jnz     loc_13A22FA
+mov     cl, [edi+41]
+and     cl, [edi+58]
+and     cl, [edi+3A]
+xor     cl, [edi+2B]
+sub     cl, [edi+31]
+sub     cl, [edi+49]
+or      cl, [edi+55]
+cmp     cl, 0B5 
+jnz     loc_13A22FA
+mov     cl, [edi+42]
+sub     cl, [edi+59]
+add     cl, [edi+10]
+xor     cl, [edi+12]
+xor     cl, [edi+28]
+add     cl, [edi+58]
+add     cl, [edi+0C]
+cmp     cl, 0AD 
+jnz     loc_13A22FA
+mov     cl, [edi+43]
+xor     cl, [edi+3]
+xor     cl, [edi+9]
+xor     cl, [edi+1E]
+sub     cl, [edi+30]
+and     cl, [edi+5A]
+xor     cl, [edi+3B]
+cmp     cl, 7F
+jnz     loc_13A22FA
+mov     cl, [edi+44]
+xor     cl, [edi+4]
+xor     cl, [edi+24]
+xor     cl, [edi+0B]
+xor     cl, [edi+33]
+or      cl, [edi]
+and     cl, [edi+32]
+cmp     cl, 56 
+jnz     loc_13A22FA
+mov     cl, [edi+45]
+xor     cl, [edi+37]
+xor     cl, [edi+51]
+xor     cl, [edi+4]
+sub     cl, [edi+13]
+xor     cl, [edi]
+xor     cl, [edi+49]
+cmp     cl, 0B3 
+jnz     loc_13A22FA
+mov     cl, [edi+46]
+xor     cl, [edi+25]
+or      cl, [edi+0F]
+and     cl, [edi+3F]
+xor     cl, [edi+0C]
+xor     cl, [edi+51]
+xor     cl, [edi+30]
+cmp     cl, 74 
+jnz     loc_13A22FA
+mov     cl, [edi+47]
+xor     cl, [edi+57]
+xor     cl, [edi+4D]
+xor     cl, [edi+6]
+sub     cl, [edi+50]
+xor     cl, [edi+39]
+xor     cl, [edi+33]
+cmp     cl, 9A 
+jnz     loc_13A22FA
+mov     cl, [edi+48]
+and     cl, [edi+59]
+xor     cl, [edi+5D]
+xor     cl, [edi+39]
+xor     cl, [edi+4C]
+and     cl, [edi+0C]
+sub     cl, [edi+5C]
+cmp     cl, 6
+jnz     loc_13A22FA
+mov     cl, [edi+49]
+xor     cl, [edi+5E]
+xor     cl, [edi+41]
+xor     cl, [edi+6]
+add     cl, [edi+57]
+sub     cl, [edi+38]
+xor     cl, [edi+31]
+cmp     cl, 0C8 
+jnz     loc_13A22FA
+mov     cl, [edi+4A]
+xor     cl, [edi+3C]
+or      cl, [edi+0C]
+add     cl, [edi+23]
+sub     cl, [edi+3A]
+xor     cl, [edi+0A]
+sub     cl, [edi+50]
+cmp     cl, 48 
+jnz     loc_13A22FA
+mov     cl, [edi+4B]
+add     cl, [edi+25]
+sub     cl, [edi+32]
+xor     cl, [edi+47]
+add     cl, [edi+5E]
+xor     cl, [edi+44]
+xor     cl, [edi+31]
+cmp     cl, 0A0 
+jnz     loc_13A22FA
+mov     cl, [edi+4C]
+add     cl, [edi+53]
+and     cl, [edi+0F]
+xor     cl, [edi+41]
+or      cl, [edi+35]
+sub     cl, [edi+0F]
+xor     cl, [edi+42]
+cmp     cl, 2C 
+jnz     loc_13A22FA
+mov     cl, [edi+4D]
+add     cl, [edi+38]
+xor     cl, [edi+1E]
+xor     cl, [edi+8]
+xor     cl, [edi+1E]
+and     cl, [edi+5B]
+xor     cl, [edi+12]
+cmp     cl, 65 
+jnz     loc_13A22FA
+mov     cl, [edi+4E]
+or      cl, [edi+4F]
+xor     cl, [edi+3A]
+sub     cl, [edi+2E]
+xor     cl, [edi+2E]
+xor     cl, [edi+37]
+add     cl, [edi+2D]
+cmp     cl, 0E0 
+jnz     loc_13A22FA
+mov     cl, [edi+4F]
+or      cl, [edi+5D]
+or      cl, [edi+17]
+and     cl, [edi+18]
+xor     cl, [edi+5E]
+xor     cl, [edi+1F]
+xor     cl, [edi+56]
+cmp     cl, 4
+jnz     loc_13A22FA
+mov     cl, [edi+50]
+sub     cl, [edi+37]
+or      cl, [edi+43]
+and     cl, [edi+3F]
+xor     cl, [edi+2E]
+xor     cl, [edi+7]
+and     cl, [edi+15]
+cmp     cl, 40 
+jnz     loc_13A22FA
+mov     cl, [edi+51]
+and     cl, [edi+1E]
+xor     cl, [edi+14]
+xor     cl, [edi+2C]
+xor     cl, [edi+35]
+xor     cl, [edi+30]
+or      cl, [edi+1]
+cmp     cl, 77 
+jnz     loc_13A22FA
+mov     cl, [edi+52]
+xor     cl, [edi+46]
+xor     cl, [edi+17]
+add     cl, [edi+1]
+sub     cl, [edi+33]
+sub     cl, [edi+0E]
+or      cl, [edi+19]
+cmp     cl, 77 
+jnz     loc_13A22FA
+mov     cl, [edi+53]
+or      cl, [edi+27]
+xor     cl, [edi+3C]
+or      cl, [edi+5]
+or      cl, [edi+3A]
+xor     cl, [edi+16]
+xor     cl, [edi+25]
+cmp     cl, 2
+jnz     loc_13A22FA
+mov     cl, [edi+54]
+or      cl, [edi+9]
+xor     cl, [edi+4A]
+or      cl, [edi+5B]
+sub     cl, [edi+6]
+and     cl, [edi+33]
+xor     cl, [edi+33]
+cmp     cl, 2A 
+jnz     loc_13A22FA
+mov     cl, [edi+55]
+xor     cl, [edi+47]
+add     cl, [edi+2F]
+and     cl, [edi+3E]
+xor     cl, [edi+13]
+xor     cl, [edi+2]
+xor     cl, [edi+51]
+cmp     cl, 14
+jnz     loc_13A22FA
+mov     cl, [edi+56]
+add     cl, [edi+54]
+xor     cl, [edi+46]
+xor     cl, [edi+3A]
+xor     cl, [edi+5E]
+and     cl, [edi+21]
+xor     cl, [edi+48]
+cmp     cl, 2
+jnz     loc_13A22FA
+mov     cl, [edi+57]
+and     cl, [edi+2C]
+xor     cl, [edi+24]
+or      cl, [edi+14]
+xor     cl, [edi+58]
+and     cl, [edi+50]
+or      cl, [edi+2C]
+cmp     cl, 7D 
+jnz     loc_13A22FA
+mov     cl, [edi+58]
+sub     cl, [edi]
+xor     cl, [edi+32]
+and     cl, [edi+19]
+xor     cl, [edi+5E]
+xor     cl, [edi+26]
+xor     cl, [edi+51]
+cmp     cl, 38 
+jnz     loc_13A22FA
+mov     cl, [edi+59]
+xor     cl, [edi+3F]
+and     cl, [edi+42]
+or      cl, [edi+0B]
+xor     cl, [edi+5D]
+or      cl, [edi+54]
+or      cl, [edi+3]
+cmp     cl, 73 
+jnz     loc_13A22FA
+mov     cl, [edi+5A]
+or      cl, [edi+43]
+xor     cl, [edi+5F]
+add     cl, [edi+10]
+and     cl, [edi+55]
+xor     cl, [edi+0D]
+and     cl, [edi+34]
+cmp     cl, 20 
+jnz     loc_13A22FA
+mov     cl, [edi+5B]
+add     cl, [edi+33]
+xor     cl, [edi+50]
+add     cl, [edi+4A]
+xor     cl, [edi+4E]
+xor     cl, [edi+44]
+xor     cl, [edi+2C]
+cmp     cl, 4E 
+jnz     loc_13A22FA
+mov     cl, [edi+5C]
+sub     cl, [edi+3B]
+xor     cl, [edi+57]
+and     cl, [edi+1E]
+or      cl, [edi+21]
+xor     cl, [edi+0F]
+xor     cl, [edi+12]
+cmp     cl, 68 
+jnz     sort loc_13A22FA
+mov     cl, [edi+5D]
+xor     cl, [edi+0F]
+xor     cl, [edi+3A]
+sub     cl, [edi+6]
+add     cl, [edi+4C]
+xor     cl, [edi+27]
+and     cl, [edi+43]
+cmp     cl, 4
+jnz     sort loc_13A22FA
+mov     cl, [edi+5E]
+xor     cl, [edi+50]
+xor     cl, [edi+48]
+or      cl, [edi]
+xor     cl, [edi+42]
+and     cl, [edi+4D]
+and     cl, [edi+41]
+cmp     cl, 74 
+jnz     sort loc_13A22FA
+mov     cl, [edi+5F]
+xor     cl, [edi+8]
+and     cl, [edi+46]
+xor     cl, [edi+7]
+sub     cl, [edi+1C]
+or      cl, [edi+37]
+xor     cl, [edi+53]
+cmp     cl, 0A0 
+jnz     sort loc_13A22FA
+mov     cl, [edi+4F]
+cmp     cl, 5F 
+jnz     sort loc_13A22FA
+mov     cl, [edi+2F]
+cmp     cl, 34 
+jnz     sort loc_13A22FA
+mov     cl, [edi+3D]
+cmp     cl, 75 

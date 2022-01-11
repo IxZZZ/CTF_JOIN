@@ -1,0 +1,287 @@
+ L.   1         0  JUMP_FORWARD          4  'to 4'
+                2  LOAD_GLOBAL          99  99
+              4_0  COME_FROM           112  '112'
+              4_1  COME_FROM             0  '0'
+                4  LOAD_CONST               0
+                6  LOAD_CONST               ('md5',)
+                8  IMPORT_NAME              hashlib
+               10  IMPORT_FROM              md5
+
+ L.   3        12  STORE_NAME               md5
+               14  POP_TOP
+               16  LOAD_NAME                str
+               18  LOAD_NAME                input
+               20  LOAD_STR                 'please supply a valid key:'
+               22  CALL_FUNCTION_1       1  ''
+               24  CALL_FUNCTION_1       1  ''
+               26  LOAD_METHOD              encode
+
+ L.   6        28  CALL_METHOD_0         0  ''
+               30  STORE_NAME               k
+               32  LOAD_NAME                len
+               34  LOAD_NAME                k
+               36  CALL_FUNCTION_1       1  ''
+               38  LOAD_CONST               16
+               40  COMPARE_OP               ==
+
+ L.   7     42_44  JUMP_IF_FALSE_OR_POP   462  'to 462'
+               46  LOAD_NAME                k
+               48  LOAD_CONST               0
+               50  BINARY_SUBSCR
+
+ L.   6        52  LOAD_CONST               102
+               54  COMPARE_OP               ==
+
+ L.   8     56_58  JUMP_IF_FALSE_OR_POP   462  'to 462'
+               60  LOAD_NAME                k
+               62  LOAD_CONST               1
+               64  BINARY_SUBSCR
+               66  LOAD_NAME                k
+               68  LOAD_CONST               0
+               70  BINARY_SUBSCR
+               72  LOAD_CONST               6
+
+ L.   6        74  BINARY_ADD
+               76  COMPARE_OP               ==
+
+ L.   9     78_80  JUMP_IF_FALSE_OR_POP   462  'to 462'
+               82  LOAD_NAME                k
+               84  LOAD_CONST               2
+               86  BINARY_SUBSCR
+               88  LOAD_NAME                k
+               90  LOAD_CONST               1
+               92  BINARY_SUBSCR
+               94  LOAD_NAME                k
+               96  LOAD_CONST               0
+               98  BINARY_SUBSCR
+              100  BINARY_SUBTRACT
+              102  LOAD_CONST               91
+
+ L.   6       104  BREAK_LOOP          116  'to 116'
+              106  FOR_ITER            110  'to 110'
+
+ L.  10       108  BREAK_LOOP          112  'to 112'
+              110  JUMP_FORWARD        114  'to 114'
+            112_0  COME_FROM           108  '108'
+              112  POP_JUMP_IF_FALSE     4  'to 4'
+            114_0  COME_FROM           110  '110'
+              114  JUMP_BACK             4  'to 4'
+            116_0  COME_FROM           104  '104'
+              116  BINARY_ADD
+
+ L.   6       118  COMPARE_OP               ==
+          120_122  JUMP_IF_FALSE_OR_POP   462  'to 462'
+              124  LOAD_NAME                k
+              126  LOAD_CONST               3
+              128  BINARY_SUBSCR
+              130  LOAD_CONST               103
+              132  COMPARE_OP               ==
+          134_136  JUMP_IF_FALSE_OR_POP   462  'to 462'
+              138  LOAD_NAME                k
+              140  LOAD_CONST               4
+              142  BINARY_SUBSCR
+
+ L.   6       144  LOAD_NAME                k
+              146  LOAD_CONST               11
+
+ L.  12       148  BINARY_SUBSCR
+              150  LOAD_CONST               3
+              152  BINARY_MULTIPLY
+              154  LOAD_CONST               42
+              156  BINARY_SUBTRACT
+              158  COMPARE_OP               ==
+          160_162  JUMP_IF_FALSE_OR_POP   462  'to 462'
+              164  LOAD_NAME                k
+
+ L.   6       166  LOAD_CONST               5
+              168  BINARY_SUBSCR
+
+ L.  13       170  LOAD_NAME                sum
+              172  LOAD_NAME                k
+              174  CALL_FUNCTION_1       1  ''
+              176  LOAD_CONST               1322
+              178  BINARY_SUBTRACT
+              180  COMPARE_OP               ==
+          182_184  JUMP_IF_FALSE_OR_POP   462  'to 462'
+              186  LOAD_NAME                k
+              188  LOAD_CONST               6
+              190  BINARY_SUBSCR
+              192  LOAD_NAME                k
+              194  LOAD_CONST               7
+
+ L.   6       196  BINARY_SUBSCR
+              198  BINARY_ADD
+
+ L.  14       200  LOAD_NAME                k
+              202  LOAD_CONST               10
+              204  BINARY_SUBSCR
+              206  BINARY_ADD
+              208  LOAD_CONST               260
+              210  COMPARE_OP               ==
+          212_214  JUMP_IF_FALSE_OR_POP   462  'to 462'
+              216  LOAD_NAME                int
+              218  LOAD_NAME                chr
+              220  LOAD_NAME                k
+              222  LOAD_CONST               7
+              224  BINARY_SUBSCR
+              226  CALL_FUNCTION_1       1  ''
+              228  LOAD_CONST               2
+
+ L.   6       230  BINARY_MULTIPLY
+              232  CALL_FUNCTION_1       1  ''
+
+ L.  15       234  LOAD_CONST               1
+              236  BINARY_ADD
+              238  LOAD_NAME                k
+              240  LOAD_CONST               9
+              242  BINARY_SUBSCR
+              244  COMPARE_OP               ==
+          246_248  JUMP_IF_FALSE_OR_POP   462  'to 462'
+              250  LOAD_NAME                k
+
+ L.  16       252  LOAD_CONST               8
+              254  BINARY_SUBSCR
+              256  LOAD_CONST               17
+              258  BINARY_MODULO
+              260  LOAD_CONST               16
+              262  COMPARE_OP               ==
+          264_266  JUMP_IF_FALSE_OR_POP   462  'to 462'
+              268  LOAD_NAME                k
+
+ L.   6       270  LOAD_CONST               9
+              272  BINARY_SUBSCR
+
+ L.  17       274  LOAD_NAME                k
+              276  LOAD_CONST               8
+              278  BINARY_SUBSCR
+              280  LOAD_CONST               2
+              282  BINARY_MULTIPLY
+              284  COMPARE_OP               ==
+          286_288  JUMP_IF_FALSE_OR_POP   462  'to 462'
+              290  LOAD_NAME                md5
+              292  LOAD_NAME                k
+              294  LOAD_CONST               10
+              296  BINARY_SUBSCR
+              298  LOAD_CONST               b'a'
+              300  BINARY_MULTIPLY
+              302  CALL_FUNCTION_1       1  ''
+              304  LOAD_METHOD              digest
+              306  CALL_METHOD_0         0  ''
+
+ L.   6       308  LOAD_CONST               0
+              310  BINARY_SUBSCR
+
+ L.  18       312  LOAD_CONST               1
+              314  BINARY_SUBTRACT
+              316  LOAD_NAME                k
+              318  LOAD_CONST               3
+              320  BINARY_SUBSCR
+
+ L.   6       322  COMPARE_OP               ==
+              324  ROT_TWO
+
+ L.  19       326  ROT_TWO
+          328_330  JUMP_IF_FALSE_OR_POP   462  'to 462'
+              332  LOAD_NAME                k
+              334  LOAD_CONST               11
+              336  BINARY_SUBSCR
+              338  LOAD_CONST               55
+              340  COMPARE_OP               ==
+          342_344  JUMP_IF_FALSE_OR_POP   462  'to 462'
+              346  LOAD_NAME                k
+
+ L.   6       348  LOAD_CONST               12
+              350  BINARY_SUBSCR
+
+ L.  20       352  LOAD_NAME                k
+              354  LOAD_CONST               14
+              356  BINARY_SUBSCR
+              358  LOAD_CONST               2
+              360  BINARY_TRUE_DIVIDE
+              362  LOAD_CONST               2
+              364  BINARY_SUBTRACT
+              366  COMPARE_OP               ==
+          368_370  JUMP_IF_FALSE_OR_POP   462  'to 462'
+              372  LOAD_NAME                k
+              374  LOAD_CONST               13
+              376  BINARY_SUBSCR
+              378  LOAD_NAME                k
+              380  LOAD_CONST               10
+              382  BINARY_SUBSCR
+              384  LOAD_NAME                k
+
+ L.   6       386  LOAD_CONST               8
+              388  BINARY_SUBSCR
+
+ L.  21       390  BINARY_MULTIPLY
+              392  LOAD_CONST               32
+              394  BINARY_MODULO
+              396  LOAD_CONST               2
+              398  BINARY_MULTIPLY
+              400  LOAD_CONST               1
+              402  BINARY_SUBTRACT
+              404  COMPARE_OP               ==
+          406_408  JUMP_IF_FALSE_OR_POP   462  'to 462'
+              410  LOAD_NAME                k
+              412  LOAD_CONST               14
+              414  BINARY_SUBSCR
+              416  LOAD_NAME                k
+              418  LOAD_CONST               12
+              420  BINARY_SUBSCR
+              422  LOAD_NAME                k
+              424  LOAD_CONST               9
+              426  BINARY_SUBSCR
+
+ L.   6       428  BINARY_XOR
+              430  LOAD_NAME                k
+
+ L.  22       432  LOAD_CONST               15
+              434  BINARY_SUBSCR
+              436  BINARY_XOR
+              438  LOAD_CONST               3
+              440  BINARY_MULTIPLY
+
+ L.   4       442  LOAD_CONST               23
+
+ L.  25       444  BINARY_SUBTRACT
+              446  COMPARE_OP               ==
+          448_450  JUMP_IF_FALSE_OR_POP   462  'to 462'
+              452  LOAD_NAME                k
+              454  LOAD_CONST               15
+              456  BINARY_SUBSCR
+              458  LOAD_CONST               125
+              460  COMPARE_OP               ==
+            462_0  COME_FROM           448  '448'
+            462_1  COME_FROM           406  '406'
+            462_2  COME_FROM           368  '368'
+            462_3  COME_FROM           342  '342'
+            462_4  COME_FROM           328  '328'
+            462_5  COME_FROM           286  '286'
+            462_6  COME_FROM           264  '264'
+            462_7  COME_FROM           246  '246'
+            462_8  COME_FROM           212  '212'
+            462_9  COME_FROM           182  '182'
+           462_10  COME_FROM           160  '160'
+           462_11  COME_FROM           134  '134'
+           462_12  COME_FROM           120  '120'
+           462_13  COME_FROM            78  '78'
+           462_14  COME_FROM            56  '56'
+           462_15  COME_FROM            42  '42'
+              462  STORE_NAME               correct
+              464  LOAD_NAME                print
+              466  LOAD_NAME                correct
+          468_470  POP_JUMP_IF_FALSE   486  'to 486'
+              472  LOAD_STR                 'valid key! '
+              474  LOAD_NAME                k
+              476  LOAD_METHOD              decode
+              478  CALL_METHOD_0         0  ''
+              480  FORMAT_VALUE          0  ''
+              482  BUILD_STRING_2        2
+              484  JUMP_FORWARD        488  'to 488'
+            486_0  COME_FROM           468  '468'
+              486  LOAD_STR                 'invalid key :('
+            488_0  COME_FROM           484  '484'
+              488  CALL_FUNCTION_1       1  ''
+              490  POP_TOP
+
+Parse error at or near `None' instruction

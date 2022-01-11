@@ -1,0 +1,23 @@
+arr_plain = [0xFF, 0xD8, 0xFF, 0xE0, 0x00, 0x10, 0x4A, 0x46]
+
+#arr_plain = [0x89, 0x50 ,0x4E ,0x47 ,0x0D ,0x0A ,0x1A ,0x0A]
+
+
+def ROR(data, shift, size=8):
+    shift %= size
+    body = data >> shift
+    remains = (data << (size - shift)) - (body << size)
+    return (body + remains)
+
+
+file = open('flarevm.jpg.encrypted', 'rb')
+
+str = file.read()[:8]
+
+print(''.join([hex(i) for i in list(str)]))
+arr = []
+for i in range(8):
+    arr.append(ROR((arr_plain[i]+i)&0xff, i, 8) ^ str[i])
+
+print(arr)
+print(''.join([chr(i) for i in arr]))

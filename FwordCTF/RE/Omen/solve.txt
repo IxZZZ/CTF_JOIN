@@ -1,0 +1,12 @@
+0x76DA000F
+0x76D36BCA
+0x64f
+0x092c98
+
+unk_687F91B0
+
+FWORDctf{
+
+flag[0x4f]='_'
+flag[0x2f] = '4'
+flag[0x3d] = 'u'

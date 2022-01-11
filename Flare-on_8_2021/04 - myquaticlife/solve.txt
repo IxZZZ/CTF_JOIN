@@ -1,0 +1,71 @@
+
+derelict:yXQsGB -> shark - 6 
+derelict:MZZWP -> 1
+lagan:BAJkR -> 2
+derelict:LSZvYSFHW -> 12
+derelict:RTYXAc -> 15
+derelict:LDNCVYU -> 5
+lagan:GTXI -> 16
+lagan:QICMX -> 8
+lagan:rOPFG -> 9
+
+part2$ -> 14
+
+
+flotsam:DFWEyEW -> 3 - 7
+flotsam:PXopvM ->  4 - 6
+flotsam:BGgsuhn -> 13 - 7
+
+
+jetsam:newaui -> 7 - 6
+jetsam:SLdkv -> 11 - 5
+jetsam:HwdwAZ -> 10 - 6
+newauiSLdkv
+SLdkvnewaui
+HwdwAZSLdkv
+SLdkvHwdwAZ
+
+
+     @flare-on.com
+BGgsuhnPXopvMDFWEyEW
+    SLdkvnewauiHwdwAZ
+
+                  @flare-on.com
+             BGgsuhnPXopvMDFWEyEW
+SLdkvnewauiHwdwAZSLdkvnewauiHwdwAZ
+
+3 4 13 4 3
+
+
+
+solve -> 4 3 13 4 3
+
+solve -> 11 7 10 11 7 10
+
+s1gn_my_gu357_b00k@flare-on.com
+
+v14
+                             96h ; –
+Stack[0000294C]:0019CF81 db  25h ; %
+Stack[0000294C]:0019CF82 db 0A4h ; ¤
+Stack[0000294C]:0019CF83 db 0A9h ; ©
+Stack[0000294C]:0019CF84 db 0A3h ; £
+Stack[0000294C]:0019CF85 db  96h ; –
+Stack[0000294C]:0019CF86 db  9Ah ; š
+Stack[0000294C]:0019CF87 db  90h
+Stack[0000294C]:0019CF88 db  9Fh ; Ÿ
+Stack[0000294C]:0019CF89 db 0AFh ; ¯
+Stack[0000294C]:0019CF8A db 0E5h ; å
+Stack[0000294C]:0019CF8B db  38h ; 8
+Stack[0000294C]:0019CF8C db 0F9h ; ù
+Stack[0000294C]:0019CF8D db  81h
+Stack[0000294C]:0019CF8E db  9Eh ; ž
+Stack[0000294C]:0019CF8F db  16h
+Stack[0000294C]:0019CF90 db 0F9h ; ù
+Stack[0000294C]:0019CF91 db 0CBh ; Ë
+Stack[0000294C]:0019CF92 db 0E4h ; ä
+Stack[0000294C]:0019CF93 db 0A4h ; ¤
+Stack[0000294C]:0019CF94 db  87h ; ‡
+Stack[0000294C]:0019CF95 db  8Fh
+Stack[0000294C]:0019CF96 db  8Fh
+Stack[0000294C]:0019CF97 db 0BAh ; º

@@ -1,0 +1,54 @@
+password[0] = 0x45 ok
+password[1] = 0x34 ok
+password[2] = 0x51 ok
+password[3] = 0x35 ok
+password[4] = 0x64 ok
+
+password[5] = 0x36 ok
+
+password[6] = ord('?') = 0x66
+password[7] = 0x60 ok
+password[8] = 115 ok
+password[9] = 52 ok
+password[10] = 94 ok
+password[11] = 68 ok
+password[12] = 0x35 ok
+
+password[13] = 73
+
+
+In the FLARE language "spaghetti" is "c3BhZ2hldHRp".
+In the FLARE team we like to speak in code. You should learn our language, otherwise you want be able to speak with us when you escape (if you manage to escape!). For example, instead of "strawberries" we say "c3RyYXdiZXJyaWVz".
+c3BhZ2hldHRpc3RyYXdiZXJyaWVz
+Otherwise they may get angry and not let you leave even if you get the flag.
+https://twitter.com/anamma_06
+https://twitter.com/osardar1
+https://twitter.com/MalwareMechanic
+
+You should follow the FLARE team in Twitter. They post a bunch of interesting stuff and have great conversation on Twitter!
+https://twitter.com/anamma_06
+https://twitter.com/MalwareMechanic
+
+key: Sheep should sleep in a shed15.2
+
+
+
+shoping_list -> recover xor key
+-> 'u' file
+
+-> 's' file rotate left,right
+
+-> 'o' file vinerger cipher key: 'MICROWAVES'
+
+-> osint -> 't' -> AES key 'Sheep should sleep in a shed15.2' iv: 'BRIBE00000000000'
+
+-> 'b' xor key "Reese's"
+
+-> 'i' shift ascii cipher
+
+-> 'n' RC4 with key number '493513'
+
+-> 'd' bifid cipher keyword 'eggs'
+
+-> password: "E4Q5d6f`s4lD5I"
+flag = 'H4Ck3r_e5c4P3D@flare-on.com'

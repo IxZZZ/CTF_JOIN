@@ -1,0 +1,6 @@
+0x5611AA3c7ad0 -> 0x5611AA3c7af0 -> main_replica
+0x562EEAF2DB10-> 0x5611AA3c7af0 
+
+input: -> hwgS4XYfZtRbMNa36dQPOelk0 -> flag : inctf{0lQRhwbPMgSNkOa4X3e6YfdZt}
+hwRbQgSMNPl4Xa3OYf6Ztdek0
+EC0

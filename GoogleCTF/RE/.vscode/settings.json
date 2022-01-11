@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.md": "cpp",
+    "include1.h": "c"
+  }
+}
