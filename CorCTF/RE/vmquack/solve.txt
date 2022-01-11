@@ -1,0 +1,46 @@
+.data:00000000004B15B0 unk_4B15B0 db 0BBh                      ; DATA XREF: sub_402D01+13↑o
+.data:00000000004B15B1 db 0B7h
+.data:00000000004B15B2 db 0EDh
+.data:00000000004B15B3 db 0B8h
+.data:00000000004B15B4 db  13h
+.data:00000000004B15B5 db 0FFh
+.data:00000000004B15B6 db 0CBh
+.data:00000000004B15B7 db 0BFh
+.data:00000000004B15B8 db  48h ; H
+
+
+data:00000000004B0FA0 db  4Bh ; K
+.data:00000000004B0FA1 db  28h ; (
+.data:00000000004B0FA2 db  7Dh ; }
+.data:00000000004B0FA3 db  1Dh
+.data:00000000004B0FA4 db  33h ; 3
+.data:00000000004B0FA5 db 0A8h
+.data:00000000004B0FA6 db 0AEh
+.data:00000000004B0FA7 db 0D3h
+.data:00000000004B0FA8 db 0D8h
+.data:00000000004B0FA9 db 0D8h
+.data:00000000004B0FAA db  80h
+.data:00000000004B0FAB db 0DDh
+.data:00000000004B0FAC db  33h ; 3
+.data:00000000004B0FAD db  8Bh
+.data:00000000004B0FAE db 0A4h
+.data:00000000004B0FAF db  9Fh
+.data:00000000004B0FB0 db 0CDh
+.data:00000000004B0FB1 db 0DAh
+.data:00000000004B0FB2 db  9Ch
+.data:00000000004B0FB3 db 0CDh
+
+
+quack_quack_text:0000000031337000 unk_31337000 db    2                    ; DATA XREF: LOAD:0000000000400168↑o
+.quack_quack_text:0000000031337000                                         ; sub_402D01:loc_402D74↑o ...
+.quack_quack_text:0000000031337001 db  81h
+.quack_quack_text:0000000031337002 db  0Dh
+.quack_quack_text:0000000031337003 db  0Ch
+.quack_quack_text:0000000031337004 db    0
+.quack_quack_text:0000000031337005 db    0
+.quack_quack_text:0000000031337006 db    0
+.quack_quack_text:0000000031337007 db    0
+.quack_quack_text:0000000031337008 db  16h
+.quack_quack_text:0000000031337009 db  0Ah
+.quack_quack_text:000000003133700A db    0
+.quack_quack_text:000000003133700B db    0

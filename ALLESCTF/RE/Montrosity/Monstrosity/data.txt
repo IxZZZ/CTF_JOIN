@@ -1,0 +1,3959 @@
+		private static void visitField_0_0(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'd';
+			if (flag)
+			{
+				MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'h';
+				if (flag2)
+				{
+					MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 'v';
+					if (flag3)
+					{
+						MazeWalker.visitField_0_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'o';
+						if (flag4)
+						{
+							MazeWalker.visitField_1_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_1_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_1_0(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'e';
+			if (flag)
+			{
+				MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'i';
+				if (flag2)
+				{
+					MazeWalker.visitField_0_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 'w';
+					if (flag3)
+					{
+						MazeWalker.visitField_1_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'p';
+						if (flag4)
+						{
+							MazeWalker.visitField_2_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_2_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_2_0(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'f';
+			if (flag)
+			{
+				MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'j';
+				if (flag2)
+				{
+					MazeWalker.visitField_1_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 'x';
+					if (flag3)
+					{
+						MazeWalker.visitField_2_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'q';
+						if (flag4)
+						{
+							MazeWalker.visitField_3_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_3_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_3_0(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'g';
+			if (flag)
+			{
+				MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'k';
+				if (flag2)
+				{
+					MazeWalker.visitField_2_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 'y';
+					if (flag3)
+					{
+						MazeWalker.visitField_3_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'r';
+						if (flag4)
+						{
+							MazeWalker.visitField_4_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_4_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_4_0(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'h';
+			if (flag)
+			{
+				MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'l';
+				if (flag2)
+				{
+					MazeWalker.visitField_3_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 'z';
+					if (flag3)
+					{
+						MazeWalker.visitField_4_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 's';
+						if (flag4)
+						{
+							MazeWalker.visitField_5_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_5_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_5_0(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'i';
+			if (flag)
+			{
+				MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'm';
+				if (flag2)
+				{
+					MazeWalker.visitField_4_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 'a';
+					if (flag3)
+					{
+						MazeWalker.visitField_5_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 't';
+						if (flag4)
+						{
+							MazeWalker.visitField_6_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_6_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_6_0(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'j';
+			if (flag)
+			{
+				MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'n';
+				if (flag2)
+				{
+					MazeWalker.visitField_5_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 'b';
+					if (flag3)
+					{
+						MazeWalker.visitField_6_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'u';
+						if (flag4)
+						{
+							MazeWalker.visitField_7_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_7_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_7_0(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'k';
+			if (flag)
+			{
+				MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'o';
+				if (flag2)
+				{
+					MazeWalker.visitField_6_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 'c';
+					if (flag3)
+					{
+						MazeWalker.visitField_7_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'v';
+						if (flag4)
+						{
+							MazeWalker.visitField_8_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_8_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_8_0(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'l';
+			if (flag)
+			{
+				MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'p';
+				if (flag2)
+				{
+					MazeWalker.visitField_7_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 'd';
+					if (flag3)
+					{
+						MazeWalker.visitField_8_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'w';
+						if (flag4)
+						{
+							MazeWalker.visitField_9_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_9_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_9_0(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'm';
+			if (flag)
+			{
+				MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'q';
+				if (flag2)
+				{
+					MazeWalker.visitField_8_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 'e';
+					if (flag3)
+					{
+						MazeWalker.visitField_9_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'x';
+						if (flag4)
+						{
+							MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_0_1(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_0_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_0_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_1_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_1_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_1_1(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_1_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_0_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_1_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_2_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_2_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_2_1(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_2_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_1_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_2_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_3_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_3_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_3_1(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_3_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_2_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_3_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_4_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_4_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_4_1(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_4_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_3_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_4_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_5_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_5_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_5_1(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_5_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_4_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_5_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_6_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_6_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_6_1(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_6_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_5_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_6_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_7_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_7_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_7_1(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_7_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_6_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_7_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_8_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_8_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_8_1(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_8_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_7_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_8_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_9_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_9_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_9_1(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_9_0(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_8_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 'o';
+					if (flag3)
+					{
+						MazeWalker.visitField_9_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'h';
+						if (flag4)
+						{
+							MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_0_2(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_0_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_0_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_1_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_1_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_1_2(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_1_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_0_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_1_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_2_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_2_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_2_2(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_2_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_1_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_2_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_3_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_3_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_3_2(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_3_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_2_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_3_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_4_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_4_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_4_2(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_4_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_3_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_4_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_5_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_5_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_5_2(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_5_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_4_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_5_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_6_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_6_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_6_2(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_6_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_5_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_6_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_7_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_7_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_7_2(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_7_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_6_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_7_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_8_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_8_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_8_2(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_8_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_7_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_8_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_9_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_9_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_9_2(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'g';
+			if (flag)
+			{
+				MazeWalker.visitField_9_1(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'k';
+				if (flag2)
+				{
+					MazeWalker.visitField_8_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 'y';
+					if (flag3)
+					{
+						MazeWalker.visitField_9_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'r';
+						if (flag4)
+						{
+							MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_0_3(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_0_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_0_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_1_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_1_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_1_3(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_1_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_0_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_1_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_2_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_2_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_2_3(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_2_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_1_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_2_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_3_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_3_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_3_3(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_3_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_2_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_3_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_4_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_4_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_4_3(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_4_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_3_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_4_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_5_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_5_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_5_3(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_5_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_4_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_5_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_6_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_6_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_6_3(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_6_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_5_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_6_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_7_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_7_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_7_3(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_7_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_6_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_7_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_8_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_8_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_8_3(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_8_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_7_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_8_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_9_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_9_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_9_3(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'q';
+			if (flag)
+			{
+				MazeWalker.visitField_9_2(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'u';
+				if (flag2)
+				{
+					MazeWalker.visitField_8_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 'i';
+					if (flag3)
+					{
+						MazeWalker.visitField_9_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'b';
+						if (flag4)
+						{
+							MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_0_4(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_0_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_0_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_1_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_1_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_1_4(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_1_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_0_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_1_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_2_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_2_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_2_4(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_2_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_1_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_2_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_3_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_3_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_3_4(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_3_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_2_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_3_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_4_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_4_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_4_4(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_4_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_3_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_4_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_5_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_5_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_5_4(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_5_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_4_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_5_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_6_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_6_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_6_4(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_6_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_5_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_6_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_7_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_7_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_7_4(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_7_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_6_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_7_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_8_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_8_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_8_4(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_8_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_7_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_8_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_9_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_9_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_9_4(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'a';
+			if (flag)
+			{
+				MazeWalker.visitField_9_3(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'e';
+				if (flag2)
+				{
+					MazeWalker.visitField_8_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_9_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'l';
+						if (flag4)
+						{
+							MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_0_5(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_0_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_0_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_1_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_1_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_1_5(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_1_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_0_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_1_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_2_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_2_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_2_5(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_2_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_1_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_2_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_3_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_3_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_3_5(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_3_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_2_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_3_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_4_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_4_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_4_5(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_4_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_3_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_4_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_5_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_5_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_5_5(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_5_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_4_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_5_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_6_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_6_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_6_5(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_6_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_5_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_6_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_7_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_7_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_7_5(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_7_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_6_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_7_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_8_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_8_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_8_5(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_8_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_7_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_8_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_9_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_9_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_9_5(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'k';
+			if (flag)
+			{
+				MazeWalker.visitField_9_4(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'o';
+				if (flag2)
+				{
+					MazeWalker.visitField_8_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 'c';
+					if (flag3)
+					{
+						MazeWalker.visitField_9_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'v';
+						if (flag4)
+						{
+							MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_0_6(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_0_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_0_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_1_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_1_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_1_6(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_1_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_0_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_1_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_2_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_2_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_2_6(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_2_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_1_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_2_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_3_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_3_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_3_6(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_3_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_2_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_3_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_4_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_4_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_4_6(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_4_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_3_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_4_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_5_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_5_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_5_6(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_5_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_4_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_5_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_6_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_6_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_6_6(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_6_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_5_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_6_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_7_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_7_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_7_6(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_7_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_6_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_7_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_8_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_8_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_8_6(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_8_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_7_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_8_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_9_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_9_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_9_6(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'u';
+			if (flag)
+			{
+				MazeWalker.visitField_9_5(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'y';
+				if (flag2)
+				{
+					MazeWalker.visitField_8_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 'm';
+					if (flag3)
+					{
+						MazeWalker.visitField_9_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'f';
+						if (flag4)
+						{
+							MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_0_7(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_0_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_0_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_1_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_1_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_1_7(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_1_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_0_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_1_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_2_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_2_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_2_7(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_2_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_1_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_2_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_3_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_3_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_3_7(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_3_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_2_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_3_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_4_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_4_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_4_7(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_4_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_3_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_4_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_5_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_5_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_5_7(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_5_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_4_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_5_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_6_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_6_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_6_7(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_6_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_5_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_6_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_7_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_7_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_7_7(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_7_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_6_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_7_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_8_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_8_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_8_7(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_8_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_7_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_8_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_9_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_9_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_9_7(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'e';
+			if (flag)
+			{
+				MazeWalker.visitField_9_6(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'i';
+				if (flag2)
+				{
+					MazeWalker.visitField_8_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 'w';
+					if (flag3)
+					{
+						MazeWalker.visitField_9_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'p';
+						if (flag4)
+						{
+							MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_0_8(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_0_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_0_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_1_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_1_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_1_8(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_1_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_0_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_1_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_2_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_2_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_2_8(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_2_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_1_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_2_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_3_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_3_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_3_8(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_3_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_2_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_3_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_4_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_4_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_4_8(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_4_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_3_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_4_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_5_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_5_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_5_8(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_5_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_4_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_5_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_6_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_6_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_6_8(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_6_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_5_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_6_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_7_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_7_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_7_8(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_7_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_6_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_7_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_8_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_8_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_8_8(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_8_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_7_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.visitField_8_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_9_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_9_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_9_8(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'o';
+			if (flag)
+			{
+				MazeWalker.visitField_9_7(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 's';
+				if (flag2)
+				{
+					MazeWalker.visitField_8_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 'g';
+					if (flag3)
+					{
+						MazeWalker.visitField_9_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'z';
+						if (flag4)
+						{
+							MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_0_9(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_0_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_1_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_1_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_1_9(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_1_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_0_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_2_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_2_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_2_9(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_2_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_1_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_3_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_3_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_3_9(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_3_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_2_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_4_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_4_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_4_9(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_4_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_3_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_5_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_5_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_5_9(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_5_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_4_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_6_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_6_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_6_9(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_6_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_5_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_7_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_7_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_7_9(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_7_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_6_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_8_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_8_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}
+
+		private static void visitField_8_9(string oldInput)
+		{
+			MazeWalker.checkLastTransition();
+			ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+			bool flag = consoleKeyInfo.KeyChar == 'w';
+			if (flag)
+			{
+				MazeWalker.visitField_8_8(oldInput + consoleKeyInfo.KeyChar.ToString());
+			}
+			else
+			{
+				bool flag2 = consoleKeyInfo.KeyChar == 'a';
+				if (flag2)
+				{
+					MazeWalker.visitField_7_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+				}
+				else
+				{
+					bool flag3 = consoleKeyInfo.KeyChar == 's';
+					if (flag3)
+					{
+						MazeWalker.outOfBounds(oldInput + consoleKeyInfo.KeyChar.ToString());
+					}
+					else
+					{
+						bool flag4 = consoleKeyInfo.KeyChar == 'd';
+						if (flag4)
+						{
+							MazeWalker.visitField_9_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+						else
+						{
+							MazeWalker.isValid = false;
+							MazeWalker.visitField_9_9(oldInput + consoleKeyInfo.KeyChar.ToString());
+						}
+					}
+				}
+			}
+		}

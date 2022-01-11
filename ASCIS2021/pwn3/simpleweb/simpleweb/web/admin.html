@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Admin Viewer</h1>
+<div>
+<label for="log">Choose log type</label>
+<select id="log">
+  <option value="login.log">Login Log</option>
+  <option value="admin.log">Admin Log</option>
+</select>
+<button type="button" id="viewlog" onclick="viewlog()">View Log</button>
+<button type="button" id="cleanlog" onclick="cleanlog()">Clean Log</button>
+</div>
+<iframe src="" title="View Log" id="logdata"></iframe>
+<script>
+    function viewlog() {
+        var logname = document.getElementById("log").value;
+        document.getElementById('logdata').src = "/cgi-bin/viewlog.cgi?logname="+logname;
+    };
+    function cleanlog() {
+        var logname = document.getElementById("log").value;
+        document.getElementById('logdata').src = "/cgi-bin/cleanlog.cgi?logname="+logname;
+    }
+</script>
+</body>
+</html>

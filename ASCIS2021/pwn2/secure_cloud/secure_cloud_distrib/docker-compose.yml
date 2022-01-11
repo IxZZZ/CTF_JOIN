@@ -1,0 +1,6 @@
+secure_cloud:
+ build: ./
+ ports:
+  - "31337:9999"
+ expose:
+  - "31337"

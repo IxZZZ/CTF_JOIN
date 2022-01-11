@@ -1,0 +1,36 @@
+I solved this crackme on the day it was posted in 30 minutes 
+because it is quite lightweight. The main difficulty is VMProtect, which can be circumvented by looking at guides on the Internet.
+Somebody had problems with this crackme as I understand it.
+The main point of this crackme is these lines:
+
+
+movzx r8d,byte ptr ds:[rbx-1] // This contains our index, with which we will find out which character we need.
+lea rax,qword ptr ds:[rbx-1]
+mov rcx,rdx
+cmovge rbx,rax
+movsx rax,r8b
+sub rcx,rsi
+mov r8b,FF
+movzx r10d,byte ptr ds:[rax+r10+32E0] // This contains our string "abcdefghijklmnopqrstuvwxyz"
+cmp rcx,1
+
+Then we see string "abcdefghijklmnopqrstuvwxyz". It is very important.
+
+After that,
+
+These are our indices, we should start from the end, because in crackme the indices are also taken from the end.
+
+00 00 00 00 00 00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 00 00 00 00 19 37 
+B2 52 03 25 00 3C 13 07 04 0F 00 12 12 16 
+0E 11 03 08 12 13 07 04 0F 00 12 12 16 0E 
+11 03 00 0D 03 13 07 04 0B 04 16 0A 04 09 
+0D 10 0D 00 0D 04 0A 10 0A 04 0A 10 0B 04 
+10 10 10 10 00 00 00 00 00
+Password verification goes from the end. Therefore, for example, our 1 character will be OUR_PASS[index], index == 0, then it will be 'a'
+Look at "abcdefghijklmnopqrstuvwxyz"
+The first 5 characters will be 'a', but the 6th character will already be 'q'.
+If our password is 9 characters long, then it will be "qqqqaaaaa". 
+I think you get the point.
+Do not forget to put # at the end of the password
+Otherwise, if you put just # or at the beginning of the #, and then the password, then in any case it will tell you that everything is correct

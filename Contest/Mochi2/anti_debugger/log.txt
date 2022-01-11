@@ -1,0 +1,4 @@
+nguyenguyen753@Mochizou:~/Desktop/writingChals/wannaOne/anti_debugger$ ./anti_debugger 
+Oh no, the stupid author leaked something:
+1636129241
+86 91 72 24 86 85 84 BA 8D 87
