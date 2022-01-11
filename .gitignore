@@ -1,7 +1,7 @@
-.dump
-.vmdk
-.reg
-.7z
-.npy
-.dmp
+*.dump
+*.vmdk
+*.reg
+*.7z
+*.npy
+*.dmp
 
